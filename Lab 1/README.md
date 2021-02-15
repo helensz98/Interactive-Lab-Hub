@@ -109,7 +109,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 The choice of colors is color blindness friendly and eyes catching. 
 
-**![alt text](/Users/helen/Downloads/WechatIMG572.jpeg)**
+**![Screenshot](/Users/helen/Downloads/WechatIMG572.jpeg)**
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 I want users to be able to notice immediately once the band changes color. Therefore, I cannot integrate the light source (my phone) with garments. In the end, I decided to make it a handband so that users can easily check out what's going on. 
