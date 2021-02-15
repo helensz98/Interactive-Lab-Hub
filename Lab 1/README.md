@@ -58,13 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting: The user will be using the device when crossing the road that does not have traffic light. It takes place at night. 
+Setting: The user will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
 
-_Players: Main player will be the user who is carrying the band with the intelligent light. Other factors include cars/bycicles on the road. 
+Players: Main player will be the user who is carrying a band with the intelligent light. Other factors include cars/bycicles on the road. 
 
-_Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. 
+Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. 
 
-_Goals:_ User: go cross the stree. Cars: on.
+Goals: User: go cross the stree. Cars: on.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
@@ -72,29 +72,29 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
+I did not finalize on the choice of design by the end of the class, so I did not get feedback from people in my breakout room. However, I did ask my friends how they feel like about this idea (not from CT). Some of them wondered whether it's best to set up the light on the wrist, since it implies that user will need to hold her/his hand up all the time to check the light. However, we did not come up with a better solution. 
+
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
+It's a little bit weird (but ok) to hold my right hand up all the time when crossing a road. 
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+If we don't restrict ourselves to light, it is actually better to use a motion detector that's connected to a bluetooth airbud. Everytime a car is coming from the side, the detector can "voice" to the user. 
 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
+N/A. I did not manage to access Localhost. Therefore, I chose to manually operate a light switch and go solo. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-**Include your first attempts at recording the set-up video here.**
+**Include your first attempts at recording [the set-up video here](https://youtu.be/wKCR1gi2IGM)**
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -103,20 +103,24 @@ Now, hange the goal within the same setting, and update the interaction with the
 ## Part E. Costume the device
 
 Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+A handband with my phone embedded as an intelligent motion detector that uses light to give warnings. 
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**Include sketches of what your device might look like here.**
+The choice of colors is color blindness friendly and eyes catching. 
+
+**![alt text](/Users/helen/Downloads/WechatIMG572.jpeg)**
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+I want users to be able to notice immediately once the band changes color. Therefore, I cannot integrate the light source (my phone) with garments. In the end, I decided to make it a handband so that users can easily check out what's going on. 
 
 ## Part F. Record
 
-**Take a video of your prototyped interaction.**
+**[Take a video of your prototyped interaction](https://youtu.be/u4Ox9YzB6QY).**
+
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Can't go outside so I go solo. 
 
 # Staging Interaction, Part 2 
 
