@@ -58,7 +58,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-Setting: The user will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
+Setting: The user(visually impaired) will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
 
 Players: Main player will be the user who is carrying a band with the intelligent light. Other factors include cars/bycicles on the road. 
 
@@ -68,6 +68,7 @@ Goals: User: go cross the stree. Cars: on.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/what_is_this.jpeg" width="150" height="250"/>
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
@@ -116,7 +117,8 @@ I want users to be able to notice immediately once the band changes color. There
 
 ## Part F. Record
 
-**[Take a video of your prototyped interaction](https://youtu.be/u4Ox9YzB6QY).**
+Please turn down the volume
+**[Take a video of your prototyped interaction](https://youtu.be/DSxGlu4gt8k).**
 
 
 **Please indicate anyone you collaborated with on this Lab.**
