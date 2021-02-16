@@ -62,9 +62,9 @@ Setting: The user(visually impaired) will be using the device when crossing the 
 
 Players: Main player will be the user who is carrying a band with the intelligent light. Other factors include cars/bycicles on the road. 
 
-Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. 
+Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. The band will give blue light if it detects objects coming from the left and red light if something approaches from the right. Thus, user can react in time even if she/he fails to detect oncoming vehicles. 
 
-Goals: User: go cross the stree. Cars: on.
+Goals: User: go cross the stree. Vehicles: on.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
