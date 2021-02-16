@@ -118,7 +118,7 @@ I want users to be able to notice immediately once the band changes color. There
 ## Part F. Record
 
 Please turn down the volume
-**[Take a video of your prototyped interaction](https://youtu.be/DSxGlu4gt8k).**
+**[Take a video of your prototyped interaction](https://youtu.be/weBZ_5ZsvKQ).**
 
 
 **Please indicate anyone you collaborated with on this Lab.**
