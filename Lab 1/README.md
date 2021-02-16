@@ -60,7 +60,7 @@ To stage the interaction with your interactive device, think about:
 
 Setting: The user(visually impaired) will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
 
-Players: Main player will be the user who is carrying a band with the intelligent light. Other factors include cars/bycicles on the road. 
+Players: Main player will be the user who is carrying a band with the intelligent light (tinkerbell). Other factors include cars/bycicles on the road. 
 
 Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. The band will give blue light if it detects objects coming from the left and red light if something approaches from the right. Thus, user can react in time even if she/he fails to detect oncoming vehicles. 
 
