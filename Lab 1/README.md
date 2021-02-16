@@ -58,7 +58,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-Setting: The user(visually impaired) will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
+Setting: This device is designed for usres who have bad peripheral visions. The user(visually impaired) will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
 
 Players: Main player will be the user who is carrying a band with the intelligent light (tinkerbell). Other factors include cars/bycicles on the road. 
 
