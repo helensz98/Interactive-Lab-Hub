@@ -150,4 +150,82 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+## Overview
+
+A) [Plan](#part-a-plan) 
+
+B) [Act out the interaction](#part-b-act-out-the-interaction) 
+
+C) [Prototype the device](#part-c-prototype-the-device)
+
+D) [Wizard the device](#part-d-wizard-the-device) 
+
+E) [Costume the device](#part-e-costume-the-device)
+
+F) [Record the interaction](#part-f-record)
+
+## Part A. Plan 
+
+To stage the interaction with your interactive device, think about:
+
+Setting: This device is designed for usres who are visually impaired. The user will be using the device when crossing the road that does not have traffic lights. It takes place at night. 
+
+Players: Main player will be the user who is carrying a band with the intelligent light (tinkerbell). Other factors include cars/bycicles on the road. 
+
+Activity: User tries to cross the traffic-light-less road while cars/bycicles are passing by. The band will give blue light if it detects objects coming from the left and red light if something approaches from the right. Thus, user can react in time even if she/he fails to detect oncoming vehicles. 
+
+Goals: User: go cross the stree. Vehicles: on.
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+**Include a picture of your storyboard here**
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.jpeg"/>
+
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+**Are there things that seemed better on paper than acted out?**
+Unlike last time, I do not need to look at my band all the time because of the newly added vibration and voice features. Everything works well but I start to wonder if it is a good device for the blind too. 
+ 
+
+
+## Part C. Prototype the device
+
+**Give us feedback on Tinkerbelle.**
+I managed to set up tinkerbelle. It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and the actual display of audio. 
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+**Include your first attempts at recording [the set-up video here](https://youtu.be/wKCR1gi2IGM)**
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+**Show the follow-up work here.**
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+A handband with my phone embedded as an intelligent motion detector that uses light to give warnings. 
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+The choice of colors is color blindness friendly and eyes catching. 
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/what_is_this.jpeg" width="150" height="250"/>
+
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
+Since the device is for people with visual disability, it should be simple and instinctive to use instead of focusing on the outlook.
+
+
+## Part F. Record
+
+Please turn down the volume
+**[Take a video of your prototyped interaction](https://youtu.be/weBZ_5ZsvKQ).**
+
+
+**Please indicate anyone you collaborated with on this Lab.**
+Can't go outside so I go solo. 
+
 **Document everything here.**
