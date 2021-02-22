@@ -193,7 +193,7 @@ Unlike last time, I do not need to look at my band all the time because of the n
 ## Part C. Prototype the device
 
 **Give us feedback on Tinkerbelle.**
-I managed to set up tinkerbelle. It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and the response.
+I only managed to open it once (due to some mysterious system problems I haven't solved). It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and receiving a response.
 
 
 ## Part D. Wizard the device
