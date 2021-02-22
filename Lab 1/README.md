@@ -174,6 +174,6 @@ It is roughly the size of a watch. Pressing the upper right button turns on/off 
 
 **[Take a video of your prototyped interaction](https://youtu.be/WonZ1VwvSvk).**
 
-I'm not sure what features I should add for blind users. Knowing that vehicles are coming is great. However, users who are blind may not know how to avoid collisions. While hurrying to avoid one, they may trap themselves into another. Perhaps the band can provide guidance on how to avoid incoming vehcles, such as :"cars coming from the left. Please take x steps forward."
+I'm not sure what features I should add for blind users. Knowing that vehicles are coming is great. However, users who are blind may not know how to avoid collisions. While hurrying to avoid one, they may trap themselves into another. Perhaps the band can provide guidance on how to avoid incoming vehicles, such as :"cars coming from the left. Please take x steps forward."
 
 **Document everything here.**
