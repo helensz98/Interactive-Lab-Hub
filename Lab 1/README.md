@@ -166,7 +166,7 @@ I use google cloud text-to-speech to mimic voice output, an app named screen fla
 
 The new device looks like this:
 
-<img src=""/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design.pdf"/>
 
 ## Record
 
