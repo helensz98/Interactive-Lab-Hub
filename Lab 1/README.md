@@ -153,7 +153,7 @@ Do last week’s assignment again, but this time:
 
 ## Update:
 
-I decided to add additional features such as voice output and vibration based on feedbacks I received. When the band detects cars/bycicles coming from the left, it will vibrate twice and say:" cars/bycicles from left". Users don't need to rely on their visions to use this device. Simiarlly, the band will vibrate **once** ans say "cars from right" when cars come from the right. It will still present blue light (left encounter) and red light (right encounter) incase users don't hear the message or miss the vibration. 
+I decided to add additional features such as voice output and vibration based on feedbacks I received. When the band detects cars/bycicles coming from the left, it will vibrate **twice** and say:" cars/bycicles from left". Users don't need to rely on their visions to use this device. Simiarlly, the band will vibrate **once** ans say "cars from right" when cars come from the right. It will still present blue light (left encounter) and red light (right encounter) incase users don't hear the message or miss the vibration. 
 The band comes with a pair of earphones which can connect to the band so that users can hear the voice ouput more clearly. 
 
 **Include a picture of your storyboard here**
@@ -170,7 +170,7 @@ The new device looks like this:
 
 ## Record
 
-**[Take a video of your prototyped interaction](https://youtu.be/weBZ_5ZsvKQ).**
+**[Take a video of your prototyped interaction](https://youtu.be/WonZ1VwvSvk).**
 
 
 **Please indicate anyone you collaborated with on this Lab.**
