@@ -178,7 +178,7 @@ Goals: User: go cross the stree. Vehicles: on.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.jpeg"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.png"/>
 
 
 ## Part B. Act out the Interaction
@@ -193,7 +193,8 @@ Unlike last time, I do not need to look at my band all the time because of the n
 ## Part C. Prototype the device
 
 **Give us feedback on Tinkerbelle.**
-I managed to set up tinkerbelle. It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and the actual display of audio. 
+I managed to set up tinkerbelle. It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and the response.
+
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -221,7 +222,6 @@ Since the device is for people with visual disability, it should be simple and i
 
 ## Part F. Record
 
-Please turn down the volume
 **[Take a video of your prototyped interaction](https://youtu.be/weBZ_5ZsvKQ).**
 
 
