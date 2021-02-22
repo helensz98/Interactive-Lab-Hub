@@ -73,7 +73,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
 
-I did not finalize on the choice of design by the end of the class, so I did not get feedback from people in my breakout room. However, I did ask my friends how they feel like about this idea (not from CT). Some of them wondered whether it's best to set up the light on the wrist, since it implies that user will need to hold her/his hand up all the time to check the light. However, we did not come up with a better solution. 
+I did not finalize my plan by the end of the class, so I did not get feedback from people in my breakout room. However, I did ask my friends how they feel like about this idea (not from CT). Some of them wondered whether it's best to set up the light on the wrist, since it implies that user will need to hold her/his hand up all the time to check the light. However, we did not come up with a better solution. 
 
 
 ## Part B. Act out the Interaction
@@ -98,9 +98,9 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording [the set-up video here](https://youtu.be/wKCR1gi2IGM)**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, hange the goal within the same setting, and update the interaction with the paper prototype.
 
-**Show the follow-up work here.**
+**Show the [follow-up work here](https://youtu.be/p3I3rAdl9jQ)**
 
 ## Part E. Costume the device
 
