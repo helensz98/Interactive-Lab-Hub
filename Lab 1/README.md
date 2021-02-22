@@ -162,7 +162,11 @@ The band comes with a pair of earphones which can connect to the band so that us
 ## Set up
 
 I use google cloud text-to-speech to mimic voice output, an app named screen flashlight to change light color, and my voice to mimic vibrations. 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard2.png"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/text_to_speech.png"/>
+
+The new device looks like this:
+
+<img src=""/>
 
 ## Record
 
