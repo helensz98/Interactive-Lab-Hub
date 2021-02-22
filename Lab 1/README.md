@@ -90,7 +90,8 @@ If we don't restrict ourselves to light, it is actually better to use a motion d
 ## Part C. Prototype the device
 
 **Give us feedback on Tinkerbelle.**
-N/A. I did not manage to access Localhost. Therefore, I chose to manually operate a light switch and go solo. 
+I only managed to open it once (due to some mysterious system problems I haven't solved, python3.7 and python3.9 both not working). It's a good system but a bit confusing becuase there is a lag between clicking the play audio button and receiving a response.
+ 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
