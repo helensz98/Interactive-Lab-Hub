@@ -168,6 +168,8 @@ The new device looks like this:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design.png"/>
 
+It is roughly the size of a watch. Pressing the upper right button turn on/off the band while pressing and holding check remaing battery. The lower right button allows users to connect their band with earpiece for the voice output (by choice). 
+
 ## Record
 
 **[Take a video of your prototyped interaction](https://youtu.be/WonZ1VwvSvk).**
