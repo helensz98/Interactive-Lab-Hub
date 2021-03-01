@@ -177,5 +177,5 @@ You are xxx cones away from the summer!
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%201/design.png"/>
 
