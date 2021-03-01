@@ -166,7 +166,9 @@ git push
 After that git will ask you to login to your github account to upload.
 
 Spring term ends at m/d/y xx:xx:xx
+
 People typically take 12 min to eat an ice cream cone
+
 You are xxx cones away from the summer!
 
 ## Part F. 
