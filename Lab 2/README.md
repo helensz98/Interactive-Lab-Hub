@@ -179,5 +179,7 @@ You are xxx cones away from the summer!
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/939c67759da858f1ca523efcabcc4ecd.png"/>
 
+User can switch between text and pictures by pressing buttonA. They can also select their favorite ice cream by pressing buttonB. 
+
 Image from https://www.pinterest.com/pin/9148005465807453/
 
