@@ -4,7 +4,7 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 #import adafruit_rgb_display.st7789 as st7789
-
+# saved in file test.py
 # part E import starts
 import adafruit_rgb_display.ili9341 as ili9341
 import adafruit_rgb_display.st7789 as st7789  # pylint: disable=unused-import
@@ -100,11 +100,13 @@ backlight.switch_to_output()
 backlight.value = True
 
 while True:
+    
+    #Part E starts
     sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
     line_1 = "Spring term ends on\n " + str(sem_end)
     line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
     current_time = datetime.now()
-    while buttonA.value and buttonB.value:
+    while buttonA.value and buttonB.value: #no button pressed
         sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
         line_1 = "Spring term ends on\n " + str(sem_end)
         line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
@@ -125,6 +127,8 @@ while True:
         disp.image(image2)
         if(buttonA.value):
             switch = False
+#      Part E ends
+            
 
 
         
