@@ -187,3 +187,12 @@ User can switch between text and pictures by pressing buttonA. They can also sel
 
 Image from https://www.pinterest.com/pin/9148005465807453/
 
+
+
+## Feedbacks:
+
+Yanjun Zhou: This is really a cute design which makes me feel that summer is so close lol. One suggestion from mine is that extented light indicator can be applied to show the corresponding taste of ice cream. Also wondering if there can be a menu to let the users understand what kinds of ice creams being offered.
+Quinn Wu: I like the idea to build a countdown clock to summer. I'd like to see more images and text to reflect the time change. 
+
+
+
