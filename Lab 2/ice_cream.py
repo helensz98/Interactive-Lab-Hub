@@ -15,6 +15,10 @@ import adafruit_rgb_display.ssd1331 as ssd1331
 from datetime import datetime, date, timedelta
 # part E import ends
 
+
+#add images vie
+#scp /Users/helen/Downloads/vanilla.jpg pi@100.64.5.82:"Interactive-Lab-Hub/Lab\\ 2"
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
