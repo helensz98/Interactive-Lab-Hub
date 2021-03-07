@@ -59,30 +59,6 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image, rotation)
 
-if disp.rotation % 180 == 90:
-    height2 = disp.width  # we swap height/width to rotate it to landsca$
-    width2 = disp.height
-else:
-    width2 = disp.width  # we swap height/width to rotate it to landscap$
-    height2 = disp.height
-image2 = Image.new("RGB", (width2, height2))
-draw2 = ImageDraw.Draw(image2)
-draw2.rectangle((0, 0, width2, height2), outline=0, fill=(0, 0, 0))
-image2 = Image.open("red.jpg")
-image_ratio = image2.width / image2.height
-screen_ratio = width2 / height2
-#image2 = image2.resize((scaled_width, scaled_height), Image.BICUBIC)
-if screen_ratio < image_ratio:
-    scaled_width = image2.width * height2 // image2.height
-    scaled_height = height2
-else:
-    scaled_width = width2
-    scaled_height = image2.height * width2 // image2.width
-image2 = image2.resize((scaled_width, scaled_height), Image.BICUBIC)
-x = scaled_width // 2 - width2 // 2
-y = scaled_height // 2 - height2 // 2
-image2 = image2.crop((x, y, x + width2, y + height2))
-
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 padding = -2
@@ -100,10 +76,14 @@ backlight.switch_to_output()
 backlight.value = True
 
 while True:
+
+    # draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
     if (buttonA.value and buttonB.value): #no button pressed
         #Part E starts
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        image = Image.new("RGB", (width, height))
+        draw = ImageDraw.Draw(image)
+
         sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
         line_1 = "Spring term ends on\n " + str(sem_end)
         line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
@@ -121,10 +101,14 @@ while True:
         draw.text((x, y), line_2, font=font, fill="#FFFFFF")
         y += font.getsize(line_2)[1]
         draw.text((x, y), line_3, font=font, fill="#FFFFFF")
-        disp.image(image, rotation)
+        # disp.image(image, rotation)
 
     elif(buttonA.value): #buttonB pressed
-        draw.rectangle((0, 0, scaled_width, scaled_height), outline=0, fill=0)
-        disp.image(image2)
+        image = Image.open("red.jpg")
+        image = image.convert('RGB')
+        image = image.resize((width, height), Image.BICUBIC)
+        #draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    
+    disp.image(image, rotation)
         
 #      Part E ends
