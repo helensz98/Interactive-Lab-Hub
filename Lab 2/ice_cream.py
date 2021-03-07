@@ -15,10 +15,6 @@ import adafruit_rgb_display.ssd1331 as ssd1331
 from datetime import datetime, date, timedelta
 # part E import ends
 
-
-#add images vie
-#scp /Users/helen/Downloads/vanilla.jpg pi@100.64.5.82:"Interactive-Lab-Hub/Lab\\ 2"
-
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -63,6 +59,31 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image, rotation)
 
+# if disp.rotation % 180 == 90:
+#     height2 = disp.width  # we swap height/width to rotate it to landsca$
+#     width2 = disp.height
+# else:
+#     width2 = disp.width  # we swap height/width to rotate it to landscap$
+#     height2 = disp.height
+# image2 = Image.new("RGB", (width2, height2))
+# draw2 = ImageDraw.Draw(image2)
+# draw2.rectangle((0, 0, width2, height2), outline=0, fill=(0, 0, 0))
+# image2 = Image.open("red.jpg")
+
+# image_ratio = image2.width / image2.height
+# screen_ratio = width2 / height2
+# #image2 = image2.resize((scaled_width, scaled_height), Image.BICUBIC)
+# if screen_ratio < image_ratio:
+#     scaled_width = image2.width * height2 // image2.height
+#     scaled_height = height2
+# else:
+#     scaled_width = width2
+#     scaled_height = image2.height * width2 // image2.width
+# image2 = image2.resize((scaled_width, scaled_height), Image.BICUBIC)
+# x = scaled_width // 2 - width2 // 2
+# y = scaled_height // 2 - height2 // 2
+# image2 = image2.crop((x, y, x + width2, y + height2))
+
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 padding = -2
@@ -71,7 +92,7 @@ bottom = height - padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = 0
 
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -81,19 +102,43 @@ backlight.value = True
 
 vanilla = 0
 chocolate = 0
-straberry = 0
+strawberry = 0
+
+add = False
+
+which = 0
+
+switch = 0
+
+s = False
+
+c = False
+
+v = False
+
 
 while True:
+
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    if (buttonA.value and buttonB.value): #no button pressed
+    if (buttonA.value and buttonB.value and not add): #no button pressed
         #Part E starts
         image = Image.new("RGB", (width, height))
         draw = ImageDraw.Draw(image)
 
-        line_1 = "Magical ice cream of time! "
-        line_2 = "\n You've haved "+str(straberry)+" straberry"
-        line_3 = "\n \n You've haved "+str(chocolate)+" chocolate"
-        line_4 = "\n \n \n You've haved "+str(vanilla)+" vanilla"
+        sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
+        current_time = datetime.now()
+        remaining_time = sem_end-current_time 
+        remaining_days = remaining_time.total_seconds()//86400 - strawberry-2*chocolate-3*vanilla
+        if int(remaining_days) < 0:
+            remaining_days = 0
+        
+        line_1 = "Magical ice cream of time!"
+        line_2 = "You've ate "+str(strawberry)+" straberry"
+        line_3 = "You've ate "+str(chocolate)+" chocolate"
+        line_4 = "You've ate "+str(vanilla)+" vanilla"
+        line_5 = "You are "+ str(remaining_days) +" days away \n from the summer!"
+        line_6 = "\n Press buttonA to view and \n buttonB to buy ice creams :)"
         y = top
         draw.text((x, y), line_1, font=font, fill="#FFFFFF")
         y += font.getsize(line_1)[1]
@@ -102,14 +147,76 @@ while True:
         draw.text((x, y), line_3, font=font, fill="#FFFFFF")
         y += font.getsize(line_3)[1]
         draw.text((x, y), line_4, font=font, fill="#FFFFFF")
-        # disp.image(image, rotation)
+        y += font.getsize(line_4)[1]
+        draw.text((x, y), line_5, font=font, fill="#FFFFFF")
+        y += font.getsize(line_5)[1]
+        draw.text((x, y), line_6, font=font, fill="#FFFFFF")
+        disp.image(image, rotation)
+    elif(not buttonA.value and not add): #buttonA pressed
+        which = 0
+        add = True
 
-    elif(buttonA.value): #buttonB pressed
-        image = Image.open("red.jpg")
-        image = image.convert('RGB')
-        image = image.resize((width, height), Image.BICUBIC)
-        #draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    
-    disp.image(image, rotation)
-        
-#      Part E ends
+    elif(buttonB.value and add): 
+
+        if(not buttonA.value and switch == 0 and s):
+            which = 1
+            switch += 1
+
+        elif(not buttonA.value and switch == 0 and c):
+            which = 2
+            switch += 1
+
+        elif(not buttonA.value and switch == 0 and v):
+            which = 0
+            switch += 1
+
+        if(buttonA.value and which == 0):
+            s = True
+            c = False
+            v = False
+            switch = 0
+            image = Image.open("strawberry.jpg")
+            image = image.convert('RGB')
+            image = image.resize((width, height), Image.BICUBIC)
+            draw = ImageDraw.Draw(image)
+            draw.rectangle((5, 10, width, 40), fill='white')
+            draw.text((5, 10), 'one strawberry costs 1 day', font=font, fill="#000000")
+            
+        elif(buttonA.value and which == 1):
+            s = False
+            c = True
+            v = False
+            switch = 0
+            image = Image.open("chocolate.jpg")
+            image = image.convert('RGB')
+            image = image.resize((width, height), Image.BICUBIC)
+            draw = ImageDraw.Draw(image)
+            draw.rectangle((5, 10, width, 40), fill='white')
+            draw.text((5, 10), 'one chocolate costs 2 days', font=font, fill="#000000")
+            
+        elif(buttonA.value and which == 2):
+            s = False
+            c = False
+            v = True
+            switch = 0
+            image = Image.open("vanilla.jpg")
+            image = image.convert('RGB')
+            image = image.resize((width, height), Image.BICUBIC)
+            draw = ImageDraw.Draw(image)
+            draw.rectangle((5, 10, width, 40), fill='white')
+            draw.text((5, 10), 'one vanilla costs 3 days', font=font, fill="#000000")
+            
+            
+        disp.image(image, rotation)
+
+    if(not buttonB.value and add): #finalize add
+        add = False
+        if(s):
+            strawberry += 1
+        elif(c):
+            chocolate += 1
+        elif(v):
+            vanilla += 1
+        s = False
+        c = False
+        v = False
