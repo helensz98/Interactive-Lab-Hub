@@ -80,25 +80,12 @@ chocolate = 0
 straberry = 0
 
 while True:
-
-    # draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
     if (buttonA.value and buttonB.value): #no button pressed
         #Part E starts
         image = Image.new("RGB", (width, height))
         draw = ImageDraw.Draw(image)
 
-        # sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
-        # line_1 = "Spring term ends on\n " + str(sem_end)
-        # line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
-        # current_time = datetime.now()
-        # sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
-        # line_1 = "Spring term ends on\n " + str(sem_end)
-        # line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
-        # current_time = datetime.now()
-        # remaining_time = sem_end - current_time
-        # num_ice_cream = remaining_time.total_seconds()/720
-        # line_3 = "\n\n\n You are "+str(num_ice_cream)+"\n cones away from the summer!"
         line_1 = "Magical ice cream of time! "
         line_2 = "\n You've haved "+str(straberry)+" straberry"
         line_3 = "\n \n You've haved "+str(chocolate)+" chocolate"
