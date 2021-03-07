@@ -101,12 +101,13 @@ backlight.value = True
 
 while True:
     
-    #Part E starts
-    sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
-    line_1 = "Spring term ends on\n " + str(sem_end)
-    line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
-    current_time = datetime.now()
-    while buttonA.value and buttonB.value: #no button pressed
+    if (buttonA.value and buttonB.value): #no button pressed
+        #Part E starts
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
+        line_1 = "Spring term ends on\n " + str(sem_end)
+        line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
+        current_time = datetime.now()
         sem_end = datetime.strptime('05 25 2021  23:59', '%m %d %Y %H:%M')
         line_1 = "Spring term ends on\n " + str(sem_end)
         line_2 = "\n People typically take \n 12 min to eat an \n ice cream cone"
@@ -120,49 +121,10 @@ while True:
         draw.text((x, y), line_2, font=font, fill="#FFFFFF")
         y += font.getsize(line_2)[1]
         draw.text((x, y), line_3, font=font, fill="#FFFFFF")
-        # Display image.
         disp.image(image, rotation)
-    switch = True
-    while switch:
+
+    elif(buttonA.value): #buttonB pressed
+        draw.rectangle((0, 0, scaled_width, scaled_height), outline=0, fill=0)
         disp.image(image2)
-        if(buttonA.value):
-            switch = False
-#      Part E ends
-            
-
-
         
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
+#      Part E ends
