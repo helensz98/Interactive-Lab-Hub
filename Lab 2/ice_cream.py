@@ -101,7 +101,7 @@ while True:
         if int(remaining_days) < 0:
             remaining_days = 0
         
-        line_1 = "Magical ice cream of time!"
+        line_1 = "Eat away your time!"
         line_2 = "You've ate "+str(strawberry)+" straberry"
         line_3 = "You've ate "+str(chocolate)+" chocolate"
         line_4 = "You've ate "+str(vanilla)+" vanilla"
