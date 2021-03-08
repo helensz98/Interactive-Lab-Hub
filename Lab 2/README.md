@@ -205,4 +205,14 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+# Part 2 Update
+
+Select magical ice cream to make your time run faster! One strawberry ice cream speeds up your time by 1 day, one chocolate ice cream costs 2 days, and vabilla costs 3! Eat as many ice creams as you want until the summer comes!
+
+Instructions: Press buttonA to view ice cream menu and buttonB to select ice cream. 
+
+[**Update**](https://youtu.be/AnsG5OqXRPg)
+
+
+
 
