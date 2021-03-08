@@ -207,7 +207,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 # Part 2 Update
 
-Select magical ice cream to make your time run faster! One strawberry ice cream speeds up your time by 1 day, one chocolate ice cream costs 2 days, and vabilla costs 3! Eat as many ice creams as you want until the summer comes!
+Select magical ice cream to make your time run faster! One strawberry ice cream speeds up your time by 1 day, one chocolate ice cream costs 2 days, and vanilla costs 3! Eat as many ice creams as you want until the summer comes!
 
 Instructions: Press buttonA to view ice cream menu and buttonB to select ice cream. 
 
