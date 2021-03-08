@@ -181,11 +181,13 @@ You are xxx cones away from the summer!
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/939c67759da858f1ca523efcabcc4ecd.png"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/strawberry.jpg"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/chocolate.jpg"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/vanilla.jpg"/>
 
 User can switch between text and pictures by pressing buttonA. They can also select their favorite ice cream by pressing buttonB. 
 
-Image from https://www.pinterest.com/pin/9148005465807453/
+Image from google pictures
 
 
 
