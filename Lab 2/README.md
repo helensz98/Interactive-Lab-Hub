@@ -211,6 +211,8 @@ Select magical ice cream to make your time run faster! One strawberry ice cream 
 
 Instructions: Press buttonA to view ice cream menu and buttonB to select ice cream. 
 
+**Please check the ice_cream.py file for code**
+
 [**Update**](https://youtu.be/AnsG5OqXRPg)
 
 
