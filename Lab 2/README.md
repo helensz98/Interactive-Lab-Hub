@@ -184,6 +184,8 @@ You are xxx cones away from the summer!
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/strawberry.jpg" width="300" height="200"/> <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/chocolate.jpg" width="300" height="200"/> <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/vanilla.jpg" width="300" height="200"/>
 
 User can switch between text and pictures by pressing buttonA. They can also select their favorite ice cream by pressing buttonB. 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%202/menu.png" width="200" height="200"/>
+
 
 Image from google pictures
 
