@@ -1,6 +1,6 @@
 # You're a wizard, [Jingjun]
 
-# Hardware problem occurs. I Need to replace my SD card (have consulted Professor Wendy). The lab is therefore incomplete. 
+# Hardware problem occurs. I Need to replace my SD card (have consulted Professor Ju). The lab is therefore incomplete. 
 
 
 
