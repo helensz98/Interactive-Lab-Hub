@@ -3,7 +3,7 @@ import sys
 import os
 import wave
 
-print("Dear traveller! I have been lying here for so long and now I'm coated in dirst. \n Could you please help me shake it off?")
+print("Dear traveller! I have been lying here for so long and now I'm coated in dust. \n Could you please help me shake it off?")
 print('Say [yes/no]')
 
 if not os.path.exists("model"):
