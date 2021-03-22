@@ -1,4 +1,4 @@
-# You're a wizard, [Student Name Here]
+# You're a wizard, [Jingjun]
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -66,11 +66,15 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Prep for Part 2
 
+You come upon a book burried under a pile of cloths. Surprise! It's a magical book once belonged to a witch. It asks to nicely if you can help shake off the dust on it, and even if you say no, it won't be mad at you!
+
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+I collected feedbacks from two of my friends. They both said that making the device a talking magical book is a good idea of wizarding it. One said that it reminded her of the sorting hat in Harry Potter. Since they had not tried the prototype, they did not provide further feebacks at that time.  
 
 ## Prototype your system
 
