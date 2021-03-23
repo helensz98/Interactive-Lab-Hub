@@ -84,12 +84,19 @@ The Magical Book: You've found me, dear traveller! Could you please help me shak
 Insturction: Please say [Yes/No].
 
 If yes:
+
    You are so kind! Please shake me now:
+   
       if shake hard enough:
+      
          Nice and clean again
+         
       else:
+      
          Please try harder!
+         
 if no:
+
    That's ok! Have a good day:)
 
 The book has resumed to sleep
