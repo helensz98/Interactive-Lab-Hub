@@ -83,9 +83,7 @@ script:
 The Magical Book: You've found me, dear traveller! Could you please help me shake off the dust? I have been lying here for so long that it's coated over me.
 Insturction: Please say [Yes/No].
 
-If yes:
-
-  <nbsp> You are so kind! Please shake me now:
+If yes: You are so kind! Please shake me now:
    
       if shake hard enough:
       
@@ -95,9 +93,7 @@ If yes:
       
          Please try harder!
 
-If no:
-
-  <nbsp> that's ok! Have a good day:)
+If no: that's ok! Have a good day:)
 
 The book has resumed to sleep
 
