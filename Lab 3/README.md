@@ -85,7 +85,7 @@ Insturction: Please say [Yes/No].
 
 If yes:
 
-  <br> You are so kind! Please shake me now:
+  <nbsp> You are so kind! Please shake me now:
    
       if shake hard enough:
       
@@ -97,7 +97,7 @@ If yes:
 
 If no:
 
-  <br> that's ok! Have a good day:)
+  <nbsp> that's ok! Have a good day:)
 
 The book has resumed to sleep
 
