@@ -78,7 +78,21 @@ You come upon a book burried under a pile of cloths. Surprise! It's a magical bo
 
 *what was the feedback? Who did it come from?*
 
-I collected feedbacks from two of my friends. They both said that making the device a talking magical book is a good idea of wizarding it. One said that it reminded her of the sorting hat in Harry Potter. Since they had not tried the prototype, they did not provide further feebacks at that time.  
+script:
+
+The Magical Book: You've found me, dear traveller! Could you please help me shake off the dust? I have been lying here for so long that it's coated over me.
+Insturction: Please say [Yes/No].
+
+If yes:
+   You are so kind! Please shake me now:
+      if shake hard enough:
+         Nice and clean again
+      else:
+         Please try harder!
+if no:
+   That's ok! Have a good day:)
+
+The book has resumed to sleep
 
 ## Prototype your system
 
