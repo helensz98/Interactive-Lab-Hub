@@ -94,10 +94,10 @@ If yes:
       else:
       
          Please try harder!
-         
-if no:
 
-   That's ok! Have a good day:)
+If no:
+
+   that's ok! Have a good day:)
 
 The book has resumed to sleep
 
