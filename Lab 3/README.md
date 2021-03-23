@@ -85,7 +85,7 @@ Insturction: Please say [Yes/No].
 
 If yes: You are so kind! Please shake me now:
    
-      if shake hard enough:
+      if shake fast enough:
       
          Nice and clean again
          
