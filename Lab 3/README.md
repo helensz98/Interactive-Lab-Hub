@@ -1,6 +1,6 @@
 # You're a wizard, [Jingjun]
 
-# Hardware problem occurs. I Need to replace my SD card (have consulted Professor Ju). The lab is therefore incomplete. 
+This lab is late because I need to replace my Pi and I have communicated with Professor Ju about this. I'm sorry for any inconvenience caused this may have cause.
 
 
 
