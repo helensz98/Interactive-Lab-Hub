@@ -95,6 +95,9 @@ The book has resumed to sleep
 
 *what was the feedback? Who did it come from?*
 
+Yingshan Wang (my sister): It's interesting how you always come up with stories to go with the design. 
+
+Panglei(Panda) Xu: I like your idea of the Magical Book that allows users to pysically interact with the Book by shaking the device. One thing that I would suggest is that your magical book can have multiple responses based on how users shake it. Make sure and secure the accelerometer on the Pi to have accurate movement reading. 
 
 
 ## Prototype your system
@@ -118,18 +121,21 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+
+The sensors easily captures movement and voice input. However, one participant told me that she had to raise her volume, or the pi might not register her answer.  
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+I use the terminal to control the running of the program, which is simple to operate. However, it is weird to look at the screen and see the logs while interacting with the Pi. It'd be better to show text and pictures on the Pi, which also helps build up the sense of magic. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
+Users interact with system differently. Using a bluetooth headphone might help users better interact with the system. I should also consider using text2speech to output system's response with voice.    
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
+I can record how long it takes for each user to decide whether to help the book, if they try to communicate with it other than saying yes or no, and what they say after seeing the Good day wish even though they have refused to help. Will users reciprocate if the system appears to be polite and understanding? I can build a voice interaction database focusing on the questions above. No additional sensing modalities are needed.    
+
+
 
