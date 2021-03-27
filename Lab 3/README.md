@@ -70,7 +70,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Prep for Part 2
 
-You come upon a book burried under a pile of cloths. Surprise! It's a magical book once belonged to a witch. It asks to nicely if you can help shake off the dust on it, and even if you say no, it won't be mad at you!
+You come upon a book burried under a pile of cloths. Surprise! It's a magical book once belonged to a witch. It asks nicely if you can help shake off the dust on it, and even if you say no, it won't be mad at you!
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
@@ -80,19 +80,15 @@ You come upon a book burried under a pile of cloths. Surprise! It's a magical bo
 
 script:
 
-The Magical Book: You've found me, dear traveller! Could you please help me shake off the dust? I have been lying here for so long that it's coated over me.
+The Magical Book: You've found me, dear traveller! Could you please help me shake off the dust? I have been lying here for so long. 
 Insturction: Please say [Yes/No].
 
 If yes: You are so kind! Please shake me now:
    
-      if shake fast enough:
+      if shake:
       
          Nice and clean again
-         
-      else:
-      
-         Please try harder!
-
+ 
 If no: that's ok! Have a good day:)
 
 The book has resumed to sleep
