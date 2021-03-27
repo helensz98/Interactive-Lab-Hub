@@ -108,7 +108,7 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
-[video](https://youtu.be/SkhZFEIwCzs)
+[video](https://youtu.be/YQlVD_0VM1M)
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%203/controller.jpeg" height="500">
 
