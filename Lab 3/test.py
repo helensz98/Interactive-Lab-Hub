@@ -3,8 +3,8 @@ import sys
 import os
 import wave
 
-print("Dear traveller! I have been lying here for so long and now I'm coated in dust. \n Could you please help me shake it off?")
-print('Say [yes/no]')
+i2c = busio.I2C(board.SCL, board.SDA)
+mpu = adafruit_mpu6050.MPU6050(i2c)
 
 if not os.path.exists("model"):
     print ("Please download the model from https://github.com/alphacep/vosk-api/blob/master/doc/models.md and unpack as 'model' in the current folder.")
