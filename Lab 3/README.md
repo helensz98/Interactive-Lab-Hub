@@ -110,6 +110,8 @@ The system should:
 
 [video](https://youtu.be/SkhZFEIwCzs)
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%203/controller.jpeg" height="500">
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
