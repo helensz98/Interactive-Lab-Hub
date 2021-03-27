@@ -44,7 +44,7 @@ while True:
         break
 
 while shake:
-    if(max(mpu.acceleration)>30):
+    if(max(mpu.acceleration)>10):
         print("Nice and clean again!")
         break
 
