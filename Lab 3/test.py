@@ -2,6 +2,17 @@ from vosk import Model, KaldiRecognizer
 import sys
 import os
 import wave
+import time
+import board
+import busio
+import adafruit_mpu6050
+import json
+import socket
+
+import signal
+import sys
+from queue import Queue
+
 
 i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
@@ -36,8 +47,6 @@ while shake:
     if(max(mpu.acceleration)>30):
         print("Nice and clean again!")
         break
-    elif(max(mpu.acceleration)<=30):
-        print('Please try harder!')
-        # print(rec.PartialResult())
+
 print('The book has resumed to sleep')
-# print(rec.FinalResult())
+
