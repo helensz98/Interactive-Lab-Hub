@@ -74,6 +74,9 @@ You come upon a book burried under a pile of cloths. Surprise! It's a magical bo
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%203/sketch.png" height="400">
+
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
