@@ -76,11 +76,6 @@ You come upon a book burried under a pile of cloths. Surprise! It's a magical bo
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%203/sketch.png" height="600">
 
-
-## Share your idea sketches with Zoom Room mates and get feedback
-
-*what was the feedback? Who did it come from?*
-
 script:
 
 The Magical Book: You've found me, dear traveller! Could you please help me shake off the dust? I have been lying here for so long. 
@@ -95,6 +90,12 @@ If yes: You are so kind! Please shake me now:
 If no: that's ok! Have a good day:)
 
 The book has resumed to sleep
+
+## Share your idea sketches with Zoom Room mates and get feedback
+
+*what was the feedback? Who did it come from?*
+
+
 
 ## Prototype your system
 
