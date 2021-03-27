@@ -1,6 +1,6 @@
 # You're a wizard, [Jingjun]
 
-This lab is late because I need to replace my Pi and I have communicated with Professor Ju about this. I'm sorry for any inconvenience caused this may have cause.
+This lab is late because I need to replace my Pi and I have communicated with Professor Ju about this. I'm sorry for any inconvenience this may have cause.
 
 
 
