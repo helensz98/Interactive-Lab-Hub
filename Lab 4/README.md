@@ -86,6 +86,11 @@ Banana 6 touched!
 
 *\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
 
+
+I connected two bananas to pads 8 and 10. 
+
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/hb.jpeg)](https://youtu.be/fXvc5rzlyJk)
+
 ### Part B
 ### OLED screen
 
