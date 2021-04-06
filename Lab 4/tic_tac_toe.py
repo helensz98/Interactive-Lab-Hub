@@ -39,8 +39,6 @@ theBoard = {7: ' ' , 8: ' ' , 9: ' ' ,
             4: ' ' , 5: ' ' , 6: ' ' ,
             1: ' ' , 2: ' ' , 3: ' ' }
 
-board_keys = [i+1 for i in range(9)]
-
 height = disp.width  # we swap height/width to rotate it to landscape!
 width = disp.height
 image = Image.new("RGB", (width, height))
