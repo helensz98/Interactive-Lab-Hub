@@ -126,8 +126,6 @@ It needs to have relatively long length and width so that I can separate the gri
 
 **Open Ended**: 
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
-
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
 I want players focus on the game, so I used cardbox to hide the pi, touching sensor, and the conductive tape. 
@@ -136,6 +134,14 @@ I want players focus on the game, so I used cardbox to hide the pi, touching sen
 
 Reasons: cardboxes are easy to get and shape. conductive tape helps connect the touch grids and the touching sensor. I also used normal tape to reassemble the box. 
 
+### Part E
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
+
+### Part F
+
+video tp be uploaded.
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
@@ -143,7 +149,10 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/document.jpeg"  width="250"/>
+
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 3. "Works like" prototypes: show us what the device can do
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
