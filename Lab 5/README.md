@@ -1,147 +1,153 @@
-# Ph-UI!!!
+# Observant Systems
 
-For lab this week, we focus on the prototyping the physical look and feel of the device. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
 
+For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
+Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
+
+This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
+
+In Lab 5 part 1, we focus on detecting and sense-making.
+
+In Lab 5 part 2, we'll incorporate interactive responses.
 
 
 ## Prep
 
-1. Pull the new Github Repo.
-2. Readings: 
+1.  Pull the new Github Repo.
+2.  Read about [OpenCV](https://opencv.org/about/).
+3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
-* [What do prototypes prototype?](https://www.semanticscholar.org/paper/What-do-Prototypes-Prototype-Houde-Hill/30bc6125fab9d9b2d5854223aeea7900a218f149)
+### For the lab, you will need:
 
-* [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
+1. Raspberry Pi
+1. Raspberry Pi Camera (2.1)
+1. Microphone (if you want speech or sound input)
+1. Webcam (if you want to be able to locate the camera more flexibly than the Pi Camera)
 
-* [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o) help interactive product designers to work through additional issues, like how big something should be, how it could be carried, where it would sit. 
-
-* [Tips to Cut, Fold, Mold and Papier-Mache Cardboard](https://makezine.com/2016/04/21/working-with-cardboard-tips-cut-fold-mold-papier-mache/) from Make Magazine.
-
-* [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/) can be built with paper, cardstock or cardboard.  The most advanced and challenging prototypes to prototype with paper are [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) which move and change. 
-
-<img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
-
-
-### For lab, you will need:
-
-1. Cardboard (start collecting those shipping boxes!)
-1. Cutting board
-1. Cutting tools
-1. Markers
-1. Found objects and materials--like bananas--we're not saying that to be funny.
-
-
-### Deliverables for this lab are: 
-1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+### Deliverables for this lab are:
+1. Show pictures, videos of the "sense-making" algorithms you tried.
+1. Show a video of how you embed one of these algorithms into your observant system.
+1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
 
 
 ## Overview
-Here are the parts of the assignment
+Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
 
-A) [Capacitive Sensing](#part-a)
+A) [Play](#part-a)
 
-B) [OLED screen](#part-b) 
+B) [Fold](#part-b)
 
-C) [Paper Display](#part-c)
+C) [Flight test](#part-c)
 
-D) [Wizard the device](#part-d-wizard-the-device) 
+D) [Reflect](#part-d)
 
-E) [Costume the device](#part-e-costume-the-device)
-
-F) [Record the interaction](#part-f-record)
-
-## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. 
-
-Include any material that explains what you did in this lab hub folder, and link it in the readme.
-
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
+---
 
 ### Part A
-### Capacitive Sensing, a.k.a. Human Banana Interaction
+### Play with different sense-making algorithms.
 
-We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use (go?) bananas!
+Befor you get started connect the RaspberryPi Camera V2. [The Pi hut has a great explanation on how to do that](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).  
 
-<p float="left">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
-<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
-<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
-</p>
+#### OpenCV
+A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
-Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
+Additionally, we also included 4 standard OpenCV examples. These examples include contour(blob) detection, face detection with the ``Haarcascade``, flow detection(a type of keypoint tracking), and standard object detection with the [Yolo](https://pjreddie.com/darknet/yolo/) darknet.
 
-![](https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg?width=1518&height=1139)
+Most examples can be run with a screen (I.e. VNC or ssh -X or with an HDMI monitor), or with just the terminal. The examples are separated out into different folders. Each folder contains a ```HowToUse.md``` file, which explains how to run the python example.
 
-I've connected my banana's* to pads 6 and 10. When you run the code and touch a banana the terminal will print out the following
-
+```shell
+pi@ixe00:~/openCV-examples $ tree -l
+.
+├── contours-detection
+│   ├── contours.py
+│   └── HowToUse.md
+├── data
+│   ├── slow_traffic_small.mp4
+│   └── test.jpg
+├── face-detection
+│   ├── face-detection.py
+│   ├── faces_detected.jpg
+│   ├── haarcascade_eye_tree_eyeglasses.xml
+│   ├── haarcascade_eye.xml
+│   ├── haarcascade_frontalface_alt.xml
+│   ├── haarcascade_frontalface_default.xml
+│   └── HowToUse.md
+├── flow-detection
+│   ├── flow.png
+│   ├── HowToUse.md
+│   └── optical_flow.py
+└── object-detection
+    ├── detected_out.jpg
+    ├── detect.py
+    ├── frozen_inference_graph.pb
+    ├── HowToUse.md
+    └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
-Banana 10 touched!
-Banana 6 touched!
-```
+#### Filtering, FFTs, and Time Series data.
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-*\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
+Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
+
+**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+
+**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+
+**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+Include links to your code here, and put the code for these in your repo--they will come in handy later.
+
+#### Teachable Machines (beta, optional)
+Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
+
+You can train a Model on your browser, experiment with its performance, and then port it to the Raspberry Pi to do even its task on the device.
+
+Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teachable Machines:
+
+1. [Setup](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/raspberry-pi-setup)
+2. Install Tensorflow: Like [this](https://learn.adafruit.com/running-tensorflow-lite-on-the-raspberry-pi-4/tensorflow-lite-2-setup), but use this [pre-built binary](https://github.com/bitsy-ai/tensorflow-arm-bin/) [the file](https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl) for Tensorflow, it will speed things up a lot.
+3. [Collect data and train models using the PiCam](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/training)
+4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
+
+Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
+
+#### PyTorch  
+As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
 
 ### Part B
-### OLED screen
+### Construct a simple interaction.
 
-We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
-</p>
-
-
+Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
+This can be as simple as the boat detector earlier.
+Try out different interactions outputs and inputs.
+**Describe and detail the interaction, as well as your experimentation.**
 
 ### Part C
-### Paper Display
+### Test the interaction prototype
 
-Here is an Pi with a paper faceplate on it to turn it into a display:
+Now flight test your interactive prototype and **note your observations**:
+For example:
+1. When does it what it is supposed to do?
+1. When does it fail?
+1. When it fails, why does it fail?
+1. Based on the behavior you have seen, what other scenarios could cause problems?
 
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
-
-
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
-
-Here is another prototype for a paper display:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
-
-It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
-
-This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
-
-| Y height of box <br> <sub><sup>- thickness of cardboard</sup></sub> | Z  depth of box <br><sub><sup>- thickness of cardboard</sup></sub> | Y height of box  | Z  depth of box | H height of faceplate <br><sub><sup>* * * * * (don't make this too short) * * * * *</sup></sub>|
-| --- | --- | --- | --- | --- | 
-
-Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Here is an example:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
-
-
-Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
- 
-**a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
-
-**b. Make a video of your paper display in action.**
-
-**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+**Think about someone using the system. Describe how you think this will work.**
+1. Are they aware of the uncertainties in the system?
+1. How bad would they be impacted by a miss classification?
+1. How could change your interactive system to address this?
+1. Are there optimizations you can try to do on your sense-making algorithm.
 
 ### Part D
-### Materiality
+### Characterize your own Observant system
 
-**Open Ended**: We are putting very few constraints on this part but we want you to get creative.
+Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
+During the lecture, we mentioned questions to help characterize a material:
+* What can you use X for?
+* What is a good environment for X?
+* What is a bad environment for X?
+* When will X break?
+* When it breaks how will X break?
+* What are other properties/behaviors of X?
+* How does X feel?
 
-Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
-
-**a. document the material prototype.** Include candidates that were considered even if they were set aside later.
-
-**b. explain the selection.**
-
+**Include a short video demonstrating the answers to these questions.**
