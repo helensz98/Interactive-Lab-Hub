@@ -126,6 +126,8 @@ It needs to have relatively long length and width so that I can separate the gri
 
 **Open Ended**: 
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
+
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
 I want players focus on the game, so I used cardbox to hide the pi, touching sensor, and the conductive tape. 
