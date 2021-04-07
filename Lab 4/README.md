@@ -150,7 +150,7 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/document.png"  width="250"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/document.png"  width="500"/>
 
 2. "Looks like" prototypes: show us how the device should look, feel, sit, weigh, etc.
 
