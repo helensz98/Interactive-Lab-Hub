@@ -122,15 +122,17 @@ It needs to have relatively long length and width so that I can separate the gri
 ### Part D
 ### Materiality
 
-I want players focus on the game, so I use cardbox to hide the pi, touching sensor, and the conductive tape. 
-
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
-
 **Open Ended**: 
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
+I want players focus on the game, so I used cardbox to hide the pi, touching sensor, and the conductive tape. 
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
+
 **b. explain the selection.**
+
+Reasons: cardboxes are easy to get and shape. conductive tape helps connect the touch grids and the touching sensor. I also used normal tape to reassemble the box. 
 
 ### Part 2.
 
