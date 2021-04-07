@@ -69,7 +69,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ### Part A
 ### Capacitive Sensing, a.k.a. Human Banana Interaction
 
-I connected two bananas to pads 8 and 10. 
+I connected two bananas to pads 8 and 10. (please click to watch the video)
 
 [![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/hb.jpeg)](https://youtu.be/fXvc5rzlyJk)
 
@@ -116,7 +116,9 @@ Interim: coding (done - uplaoded as tic_tac_toe.py) -> think of where to place t
 
 **b. Make a video of your paper display in action.**
 
-Video to be uploaded.
+Please click to watch the video:
+
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg)](https://youtu.be/FVcpImo71HY)
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
@@ -141,7 +143,9 @@ Reasons: cardboxes are easy to get and shape. conductive tape helps connect the 
 
 ### Part F
 
-video tp be uploaded.
+Please click to watch the video:
+
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg)](https://youtu.be/0rdYe8ibG1I)
 
 ### Part 2.
 
@@ -173,6 +177,7 @@ I aslo switched to aluminum foil, recommended by Yuhang Ling, because it keeps i
 
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 
-Video to be uploaded.
+Please click to watch the video:
 
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg)](https://youtu.be/mSSlJF38ibc)
 
