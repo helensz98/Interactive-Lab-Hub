@@ -84,7 +84,7 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
-Inspiration: I finished watching the Queen's Gambit one afternoon and was all ready to buy a chessborad. Then a thought hit me: what if I make a chess game out of raspberry pi! Such a brilliant idea! Help me save money too. So how should I start?
+Inspiration: I finished watching the Queen's Gambit one afternoon and was all ready to buy a chessborad. Then a thought hit me: what if I make a chess game out of raspberry pi! Such a brilliant idea! So how should I start?
 
 ...
 
