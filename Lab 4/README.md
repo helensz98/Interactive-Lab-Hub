@@ -1,6 +1,6 @@
 (solved) I broke the pi (talked to Professor Ju-my fault I'm so sorry...) I ordered a new one which will arrive tomorrow. I will upload what I have now and update the act like video tomorrow. 
 
-I used one of my friends' pi to make the videos (thank you my savoir!!!)
+I used one of my friends' pi to make the videos (thank you my savoir!!!) Lab 4 is ready. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/proof.png"  width="250"/>
 
