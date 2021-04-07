@@ -108,6 +108,8 @@ The smaller grids (9 in total) will represent grid 1 to 9 in a tic-tac-toe game.
 
 I need to consider hardware problem. Since the sensor is very small, I need to carefully separate the touch grids so that they can connect to their corresponding sensor positions without getting tangled. 
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
+
 Interim: coding (done - uplaoded as tic_tac_toe.py) -> think of where to place touch grids -> check if that works with the sensor -> if not go back to rearrange touch grids -> check ... until it works. 
 
 
@@ -127,8 +129,6 @@ It needs to have relatively long length and width so that I can separate the gri
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
 I want players focus on the game, so I used cardbox to hide the pi, touching sensor, and the conductive tape. 
-
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
 
 **b. explain the selection.**
 
