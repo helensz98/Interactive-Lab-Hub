@@ -175,5 +175,5 @@ I aslo switched to aluminum foil, recommended by Yuhang Ling, because it keeps i
 
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 
-[Please click to watch the video](https://youtu.be/mSSlJF38ibc)
+[Please click to watch the video](https://youtu.be/a0K8tsiH5gA)
 
