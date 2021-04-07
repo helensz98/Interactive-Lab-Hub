@@ -159,15 +159,15 @@ while True:
 	    else:
 	        turn = 'X'  
 
-	if (end):
-		if(mpr121[i].value):
-			end = False
-			count = 0
-			state = 0
-			turn = 'X'
-			for i in range(1, 10):
-				theBoard[i] = ' '
+    if (end):
+	if(mpr121[1].value):
+	    end = False
+	    count = 0
+	    state = 0
+	    turn = 'X'
+	    for i in range(1, 10):
+	        theBoard[i] = ' '
 	
-	printBoard(theBoard, turn, state)      
+    printBoard(theBoard, turn, state)      
     
 
