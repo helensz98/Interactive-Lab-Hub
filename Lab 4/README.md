@@ -104,7 +104,7 @@ Width: 14 cm
 
 Height: 5 cm 
 
-The smaller grids (9 in total) will represent grid 1 to 9 in a tic-tac-toe game. The upper larger grid will be the place I fix the pi sreen. Players ('X' and 'Y') will look at the screen to see whose turn it is and where they can make a move. 
+The smaller grids (9 in total) will represent grid 1 to 9 in a tic-tac-toe game. The upper larger grid will be the place I fix the pi sreen. Players ('X' and 'Y') will look at the screen to see the game board and whose turn it is. 
 
 I need to consider hardware problem. Since the sensor is very small, I need to carefully separate the touch grids so that they can connect to their corresponding sensor positions without getting tangled. 
 
