@@ -141,7 +141,11 @@ I need to consider hardware problem. Since the sensor is very small, I need to c
 
 **b. Make a video of your paper display in action.**
 
+Video to be uploaded.
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+It needs to have relatively long length and width so that I can separate the grids. Moreover, if two players are going to play the game, it's better to have a larger display so. However, I need to make do with the small screen now. The current prototype is meant to be used in a close distance due to the size of the screen. Otherwise, players will not see the board. 
 
 ### Part D
 ### Materiality
