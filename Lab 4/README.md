@@ -150,11 +150,22 @@ Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/document.jpeg"  width="250"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/document.png"  width="250"/>
 
-2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+2. "Looks like" prototypes: show us how the device should look, feel, sit, weigh, etc.
+
+The device is a lightweight rectangular cardbox-made tic-tac-toe game. Each player takes turn using the touch grids to draw 'X' or 'O'. Raspberry pi screen shows the game board on the top and prompts players to make their move. 
+
 3. "Works like" prototypes: show us what the device can do
+
+The device allows users to play the tic-tac-toe game.
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
+
+There are three possibilities: Player 'X' wins, player 'O' wins, and tie. I updated the code (restart.py) so that when a game ends, the device allows players to restart by touching grid 1. 
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+Video to be uploaded.
 
 
