@@ -156,7 +156,7 @@ Reiterating:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
 
-The device is a lightweight rectangular cardbox-made tic-tac-toe game. Each player takes turn using the touch grids to draw 'X' or 'O'. Raspberry pi screen shows the game board on the top and prompts players to make their move. 
+This is a lightweight rectangular cardbox-made tic-tac-toe game device. Each player takes turn using the touch grids to draw 'X' or 'O'. Raspberry pi screen shows the game board on the top and prompts players to make their move. 
 
 3. "Works like" prototypes: show us what the device can do
 
