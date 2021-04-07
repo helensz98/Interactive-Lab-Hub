@@ -117,6 +117,8 @@ OK tic-tac-toe it is. (I claim it's similar to chess - JK)
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/show.jpeg"  width="500"/>
 
+There are two states in this game. Either player 'X' or 'O' wins, or they have a draw. 
+
 Here's my cardbox tic-tac-toe game. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg"  width="250"/>
@@ -129,9 +131,11 @@ Height: 5 cm
 
 The smaller grids (9 in total) will represent grid 1 to 9 in a tic-tac-toe game. The upper larger grid will be the place I fix the pi sreen. Players ('X' and 'Y') will look at the screen to see whose turn it is and where they can make a move. 
 
-I need to consider hardware problem. Since the sensor is very small, I need to carefully separate the touch grids so that they can connect to their corresponding sensor position without getting tangled. 
+I need to consider hardware problem. Since the sensor is very small, I need to carefully separate the touch grids so that they can connect to their corresponding sensor positions without getting tangled. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
+
+Interim: coding (done - uplaoded as tic_tac_toe.py) -> think of where to place touch grids -> check if that works with the sensor -> if not go back to rearrange touch grids -> check ... until it works. 
 
 
 **b. Make a video of your paper display in action.**
