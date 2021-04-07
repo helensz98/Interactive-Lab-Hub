@@ -118,7 +118,7 @@ Interim: coding (done - uplaoded as tic_tac_toe.py) -> think of where to place t
 
 Please click to watch the video:
 
-[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg)](https://youtu.be/FVcpImo71HY)
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg?width=250)](https://youtu.be/FVcpImo71HY)
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
@@ -179,5 +179,5 @@ I aslo switched to aluminum foil, recommended by Yuhang Ling, because it keeps i
 
 Please click to watch the video:
 
-[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/design.jpeg)](https://youtu.be/mSSlJF38ibc)
+[![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204finished.jpeg)](https://youtu.be/mSSlJF38ibc)
 
