@@ -164,6 +164,8 @@ The device allows users to play the tic-tac-toe game.
 
 There are three possibilities: Player 'X' wins, player 'O' wins, and tie. I updated the code (improved.py) so that when a game ends, the device allows players to restart by touching grid 1. 
 
+I aslo switched to allegator clips. Since I need 9 touch grids to align properly, allegator clips are better than conductive tape. 
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 
 Video to be uploaded.
