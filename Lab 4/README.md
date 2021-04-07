@@ -68,29 +68,6 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ### Part A
 ### Capacitive Sensing, a.k.a. Human Banana Interaction
 
-We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use (go?) bananas!
-
-<p float="left">
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/003/226/medium640/MPR121_top_angle.jpg?1609282424" height="150" />
-<img src="https://cdn-shop.adafruit.com/1200x900/4401-01.jpg" height="150">
-<img src="https://post.healthline.com/wp-content/uploads/2020/08/banana-pink-background-thumb-1-732x549.jpg" height="150">
-</p>
-
-Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
-
-![](https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg?width=1518&height=1139)
-
-I've connected my banana's* to pads 6 and 10. When you run the code and touch a banana the terminal will print out the following
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
-Banana 10 touched!
-Banana 6 touched!
-```
-
-*\*Some students have noted that their banana's look noticeably different from the ones presented in this demo. We firmly reject the accusation that these are not in fact banana's but Twizzlers™. Due to the challenges of remote teaching we cannot debug banana's at this time. We suggest you bring these issues up with the university or your local produce representative*
-
-
 I connected two bananas to pads 8 and 10. 
 
 [![](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/hb.jpeg)](https://youtu.be/fXvc5rzlyJk)
@@ -105,7 +82,7 @@ We just received some of the small oled screens that we had coped to include in 
 <img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
 </p>
 
-
+No OLED now so let's go to the next part
 
 ### Part C
 ### Paper Display
