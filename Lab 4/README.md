@@ -1,4 +1,4 @@
-# broke the pi (talked to Professor Ju-my fault I'm so sorry...) I ordered a new one which will arrive tomorrow. I will upload what I have now and update teh act like video tomorrow. 
+# broke the pi (talked to Professor Ju-my fault I'm so sorry...) I ordered a new one which will arrive tomorrow. I will upload what I have now and update the act like video tomorrow. 
 
 
 
