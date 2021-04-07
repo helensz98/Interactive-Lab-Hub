@@ -80,31 +80,6 @@ No OLED now so let's move to the next part
 ### Part C
 ### Paper Display
 
-Here is an Pi with a paper faceplate on it to turn it into a display:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
-
-
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the Pi. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
-
-Here is another prototype for a paper display:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
-
-It holds a pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
-
-This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
-
-| Y height of box <br> <sub><sup>- thickness of cardboard</sup></sub> | Z  depth of box <br><sub><sup>- thickness of cardboard</sup></sub> | Y height of box  | Z  depth of box | H height of faceplate <br><sub><sup>* * * * * (don't make this too short) * * * * *</sup></sub>|
-| --- | --- | --- | --- | --- | 
-
-Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Here is an example:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
-
-
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
@@ -133,8 +108,6 @@ The smaller grids (9 in total) will represent grid 1 to 9 in a tic-tac-toe game.
 
 I need to consider hardware problem. Since the sensor is very small, I need to carefully separate the touch grids so that they can connect to their corresponding sensor positions without getting tangled. 
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
-
 Interim: coding (done - uplaoded as tic_tac_toe.py) -> think of where to place touch grids -> check if that works with the sensor -> if not go back to rearrange touch grids -> check ... until it works. 
 
 
@@ -149,7 +122,9 @@ It needs to have relatively long length and width so that I can separate the gri
 ### Part D
 ### Materiality
 
-I want to hide the hardwares and create a game which focuses on 
+I want players focus on the game, so I use cardbox to hide the pi, touching sensor, and the conductive tape. 
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/interior.jpeg"  width="250"/>
 
 **Open Ended**: 
 
