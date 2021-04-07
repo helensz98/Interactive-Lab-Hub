@@ -141,8 +141,6 @@ Reasons: cardboxes are easy to get and shape. conductive tape helps connect the 
 
 ### Part F
 
-Please click to watch the video:
-
 [Please click to watch the video](https://youtu.be/0rdYe8ibG1I)
 
 ### Part 2.
@@ -174,8 +172,6 @@ I aslo switched to aluminum foil, recommended by Yuhang Ling, because it keeps i
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/updated-interior2.jpeg"  width="250"/>
 
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-
-Please click to watch the video:
 
 [Please click to watch the video](https://youtu.be/mSSlJF38ibc)
 
