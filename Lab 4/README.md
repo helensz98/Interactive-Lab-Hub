@@ -124,6 +124,8 @@ OK tic-tac-toe it is. (I claim it's similar to chess - JK)
 
 Here's my cardbox tic-tac-toe game. 
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/Lab\ 4/design.jpeg"  width="250"/>
+
 Length: 16 cm
 
 Width: 14 cm
