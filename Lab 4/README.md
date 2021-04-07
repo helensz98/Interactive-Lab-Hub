@@ -155,7 +155,7 @@ Reiterating:
 
 2. "Looks like" prototypes: show us how the device should look, feel, sit, weigh, etc.
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/finished.jpeg"  width="250"/>
 
 This is a lightweight rectangular cardbox-made tic-tac-toe game device. Each player takes turn using the touch grids to draw 'X' or 'O'. Raspberry pi screen shows the game board on the top and prompts players to make their move. 
 
@@ -165,7 +165,11 @@ The device allows users to play the tic-tac-toe game.
 
 There are three possibilities: Player 'X' wins, player 'O' wins, and tie. I updated the code (improved.py) so that when a game ends, the device allows players to restart by touching grid 1. 
 
-I aslo switched to allegator clips. Since I need 9 touch grids to align properly, allegator clips are better than conductive tape. 
+I aslo switched to aluminum foil, recommended by Yuhang Ling, because it keeps its shape once molded. Since I need 9 touch grids to align properly, aluminum foil is better than the conductive tape. 
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/update-interior.jpeg"  width="250"/>
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/updated-interior2.jpeg"  width="250"/>
 
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 
