@@ -115,7 +115,7 @@ Inspiration: I finished watching the Queen's Gambit one afternoon and was all re
 
 OK tic-tac-toe it is. (I claim it's similar to chess - JK)
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/show.jpeg"  width="250"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/show.jpeg"  width="500"/>
 
 Here's my cardbox tic-tac-toe game. 
 
