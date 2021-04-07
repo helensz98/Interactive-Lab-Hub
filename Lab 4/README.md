@@ -154,13 +154,13 @@ Reiterating:
 
 2. "Looks like" prototypes: show us how the device should look, feel, sit, weigh, etc.
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
+
 The device is a lightweight rectangular cardbox-made tic-tac-toe game. Each player takes turn using the touch grids to draw 'X' or 'O'. Raspberry pi screen shows the game board on the top and prompts players to make their move. 
 
 3. "Works like" prototypes: show us what the device can do
 
 The device allows users to play the tic-tac-toe game.
-
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%204/paper.jpeg"  width="250"/>
 
 There are three possibilities: Player 'X' wins, player 'O' wins, and tie. I updated the code (restart.py) so that when a game ends, the device allows players to restart by touching grid 1. 
 
