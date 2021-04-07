@@ -158,6 +158,6 @@ while True:
 	    else:
 	        turn = 'X'  
 	
-	printBoard(theBoard, turn, state)      
+    printBoard(theBoard, turn, state)      
     
 
