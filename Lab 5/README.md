@@ -126,7 +126,7 @@ Try out different interactions outputs and inputs.
 
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it what it is supposed to do?
+1. When does it do what it is supposed to do?
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
