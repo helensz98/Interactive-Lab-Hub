@@ -118,6 +118,10 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
+I built a personal face-mask and sickness detector using teachable machine. If I leave without wearing a maskor show syptoms like coughing, the program will notice that. 
+
+[Please click to watch the video](https://youtu.be/4SlWbWK8rR0)
+
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
 
