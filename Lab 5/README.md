@@ -195,7 +195,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * What is a bad environment for X?
     * Somewhere dark with a messy background.
 * When will X break?
-    * When I stamp or the camera/pi or when it misclassifies other objects as masks. 
+    * When I stamp or the camera/pi or when it's in a bad environment and thus misclassifies other objects as masks. 
 * When it breaks how will X break?
     * It will not be able to tell whether the item presented is a mask or not. 
 * What are other properties/behaviors of X?
