@@ -145,7 +145,7 @@ Without smile:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/ns.png"  width="400"/>
 
-With (feeble) smile:
+With (feeble and fake) smile:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/smile.png"  width="400"/>
 
