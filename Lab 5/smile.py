@@ -1,7 +1,6 @@
 #nano indentation is super weird. 
  # for loops and if have different requirements
- # this version of smile.py has indentation specifically adjusted for nano file in my computer
-
+ # this version of smileP1.py has indentation specifically adjusted for nano file in my computer
 
  import numpy as np
  import cv2
@@ -10,23 +9,15 @@
  from gtts import gTTS
  import os
 
- #t1 = 'No user detected.'
- #t2 = 'Say cheese!'
- t3 = 'cheese!'
+
+ t3 = 'Three, two, one, cheese!'
  language = 'en'
 
- #m1 = gTTS(text=t1, lang=language, slow=False)
- #m1.save("no_user.mp3")
-
- #m2 = gTTS(text=t2, lang=language, slow=False)
- #m2.save("cheese.mp3")
-
  m3 = gTTS(text=t3, lang=language, slow=False)
- m3.save("smile.mp3")
+ m3.save("t3.mp3")
 
  face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
  smile_casecade = cv2.CascadeClassifier('haarcascade_smile.xml')
-
 
  img=None
 
@@ -52,11 +43,13 @@
 
  state = 0
  pre = 0
+ used = []
 
  while(True):
 
     if webCam:
        ret, img = cap.read()
+       k, img1 = cap.read()
 
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
@@ -80,15 +73,12 @@
        state = 0
        pre = 0
        cv2.putText(img, "No user detected", (50, 50), cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),5)
- #      if(state != pre):
- #         os.system("mpg321 no_user.mp3")
+
     elif (not smiling):
        state = 1
        pre = 1
        cv2.putText(img, "Say cheese ------", (50, 50), cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),5)
- #      if(state != pre):
- #         os.system("mpg321 cheese.mp3")
- #         pre = state
+
     else:
        state = 2
        cv2.putText(img, "Nice smile!", (50, 50), cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),5)
@@ -96,6 +86,8 @@
          #this is the silence file so that words are not cut off
           os.system("mpg321 out.mp3")
           os.system("mpg321 smile.mp3")
+          cv2.imwrite('img'+str(len(used))+".png",img1)
+          used.append(1)
           pre = state
 
     if webCam:
