@@ -128,22 +128,38 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+  
   Take selfie
+  
 * What is a good environment for X?
+  
   Settings with ample light.
+  
 * What is a bad environment for X?
+  
   Settings with dim light.
+  
 * When will X break?
+  
   To be physically broken, you need to drop it on the ground or stamp on it.
-  It also breaks when the change from no smile to smile happen to fast, for example, when users intentionally switch between smile and poker face several times in 
-  a row without giving the pi a break to catch up.
+  
+  It also breaks when the change from no smile to smile happen to fast, for example, when users switch between smile and poker face several times in 
+  a row without giving the pi a break to catch up. This may happen when X misclassifies. 
+  
 * When it breaks how will X break?
+  
   The system will froze. 
+  
 * What are other properties/behaviors of X?
+  
   It might define smile differently than users do. Don't blame it if it tells you to smile when you are smiling. 
+  
   It prefers daylight.
+  
 * How does X feel?
+  
   I don't know how it feels but I'd be scared if it does feel something when I'm using it (jk)
+  
   It's light in weight. 
 
 **Include a short video demonstrating the answers to these questions.**
