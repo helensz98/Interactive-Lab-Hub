@@ -210,4 +210,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+I included images of N95 masks, surgical masks, and invalid masks shot in different distance and angles.
+
 **Include a short video demonstrating the finished result.**
+
+[Please click to watch the video](https://youtu.be/LbZ4NJ2dGcU)
+
+
