@@ -201,6 +201,7 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
     * It's free. I won't dare to charge for it. 
     * It has limitless potential for identifying masks as the diversity increases in the training set.
+    * It identifies one object at a time.
 * How does X feel?
     * It is light in weight and easy to carry around.
 
@@ -215,5 +216,7 @@ I included images of N95 masks, surgical masks, and invalid masks taken from dif
 **Include a short video demonstrating the finished result.**
 
 [Please click to watch the video](https://youtu.be/LbZ4NJ2dGcU)
+
+I also included the qwiicButton that allows users to take elfie of themselves wearing the mask
 
 
