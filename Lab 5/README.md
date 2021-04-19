@@ -115,10 +115,12 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
     
 3. How could you change your interactive system to address this?
    
+   For example, I can let users decide whether to take a picture. Given users' input, the system will give a countdown and say "cheese" if everyone is smiling. 
+   Otherwise, it will remind users to smile before taking the pictures.
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
-    
+   Instead of using a bluetooth headphone, I can connect the pi to a bluetooth speaker so that every one can hear the countdown. 
 
 ### Part D
 ### Characterize your own Observant system
@@ -126,18 +128,23 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
-  
+  Take selfie
 * What is a good environment for X?
-
+  Settings with ample light.
 * What is a bad environment for X?
-
+  Settings with dim light.
 * When will X break?
-
+  To be physically broken, you need to drop it on the ground or stamp on it.
+  It also breaks when the change from no smile to smile happen to fast, for example, when users intentionally switch between smile and poker face several times in 
+  a row without giving the pi a break to catch up.
 * When it breaks how will X break?
-
+  The system will froze. 
 * What are other properties/behaviors of X?
-
+  It might define smile differently than users do. Don't blame it if it tells you to smile when you are smiling. 
+  It prefers daylight.
 * How does X feel?
+  I don't know how it feels but I'd be scared if it does feel something when I'm using it (jk)
+  It's light in weight. 
 
 **Include a short video demonstrating the answers to these questions.**
 
