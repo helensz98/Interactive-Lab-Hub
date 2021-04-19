@@ -181,7 +181,9 @@ The device is designed as such:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/selfie.jpg"  width="400"/>
 
-（pictures from amazon)
+[pictures from amazon](https://www.amazon.com/Smatree-Extendable-Aluminum-Monopod-Session/dp/B00ST1Y2QU/ref=asc_df_B00ST1Y2QU/?tag=hyprod-20&linkCode=df0&hvadid=309881048148&hvpos=&hvnetw=g&hvrand=15627452742380280704&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-571932235438&psc=1)
+
+The qwiic button should be placed at the bottom of the handstick for easy access. 
 
 [Please click to watch the video]()
 
