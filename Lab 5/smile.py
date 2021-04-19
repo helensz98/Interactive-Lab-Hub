@@ -10,7 +10,7 @@
  import os
 
 
- t3 = 'Three, two, one, cheese!'
+ t3 = 'cheese!'
  language = 'en'
 
  m3 = gTTS(text=t3, lang=language, slow=False)
