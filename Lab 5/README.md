@@ -143,6 +143,16 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+Since I want to allow other users to test out the prototype, I wouldn't want to train the teachable machine using only my face. I redesigned and created another example, which is trained to identify the following objects:
+
+1. tape
+2. bottle
+3. hair dryer
+4. mask
+5. nothing
+
+
+
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
