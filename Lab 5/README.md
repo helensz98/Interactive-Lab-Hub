@@ -147,7 +147,7 @@ Without smile:
 
 With smile:
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/smile.jpeg"  width="400"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/smile.png"  width="400"/>
 
 When the pi detects faces, it prompts users to smile by printing say cheese on the screen. When users smile, the pi says "cheese" to inform users that their smiling faces are captured. 
 
