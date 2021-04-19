@@ -133,6 +133,10 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+Since I want to allow other users to test the prototype, I wouldn't want to use my face to train the model. Therefore, I deleted the original version and created on which identifies two objects: 1. mask 2.empty
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
+
 ### Part C
 ### Test the interaction prototype
 
