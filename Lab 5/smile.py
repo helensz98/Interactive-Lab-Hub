@@ -1,6 +1,6 @@
 #nano indentation is super weird. 
  # for loops and if have different requirements
- # this version of smileP1.py has indentation specifically adjusted for nano file in my computer
+ # this version of smile.py has indentation specifically adjusted for nano file in my computer
 
 
  import numpy as np
