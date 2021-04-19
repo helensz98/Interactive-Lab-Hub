@@ -183,7 +183,7 @@ The device is a raspberry pi version selfie stick and should look like the produ
 
 [pictures from amazon](https://www.amazon.com/Smatree-Extendable-Aluminum-Monopod-Session/dp/B00ST1Y2QU/ref=asc_df_B00ST1Y2QU/?tag=hyprod-20&linkCode=df0&hvadid=309881048148&hvpos=&hvnetw=g&hvrand=15627452742380280704&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-571932235438&psc=1)
 
-The qwiic button should be placed at the bottom of the handstick for easy access. 
+The qwiic button should be placed at the bottom of the handstick for easy access. The qwiic cable should be reasonably long and embedded in the extendable stick. 
 
 [Please click to watch the video]()
 
