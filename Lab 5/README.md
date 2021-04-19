@@ -133,11 +133,17 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-The teacahble machine model performs poorly (and frustratingly so) with the pi camera. I spent hours changing epoch and increasing dataset without success. Therefore, I decided to use the face detection openCV model. I also modifeid it so that it detects a smile. 
+The teacahble machine model performs poorly (and frustratingly so) with the pi camera. I spent hours changing epoch and increasing dataset without success. Therefore, I decided to use the face detection openCV model. I also modifeid it so that it when it detects a smile, it says "cheese" to the users.
+
+I added a 0.5 sec silent out.mp3 file to play before cheese.mp3 so that syllables won't get cut off.
+
+
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
 
-When the camera detects 1. human face(s) and 2. smile(s), it prompts users to take a selfie.
+When the pi detects faces, it prompts users to smile by printing say cheese on the screen. When users smile, the pi says "cheese" to inform users that their smiling faces are captured. 
+
+I connected the pi with my bluetooth headphone.
 
 [Please click to watch the video](https://youtu.be/R58XpGzcE4s)
 
@@ -147,23 +153,25 @@ When the camera detects 1. human face(s) and 2. smile(s), it prompts users to ta
 
 Now flight test your interactive prototype and **note your observations**:
 For example:
-1. When does it what it is supposed to do?
+1. When does it do what it is supposed to do?
 
-When there is enough light and distance between the detected object (mask or nothing), it does its job.
+It works in a light setting where users hold the camera from a suitable distance with face front.  
 
 2. When does it fail?
 
-It fails when the mask is too close to the camera, or when the light is dim. 
+It fails when any of the above requirements is not met.
 
 3. When it fails, why does it fail?
 
 Illumination: camera cannot capture enough details to generalize features in dim light. 
 
+Angle: the pre-trained model is not suitable for face recognition from different angles and disance.
+
 Distance: I did not include images of the mask shot in different distance, and the program cannot match the features with its training set. 
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-Possible scenarios: 1. target object (mask) is presented in angles differnt from the training set. 2. similar items are presented to the camera, leading to misclassification. 
+No more than one users can use the device at the same time. With multiple users, the device cannot determine whether it should say cheese or print say cheese. 
 
 
 **Think about someone using the system. Describe how you think this will work.**
