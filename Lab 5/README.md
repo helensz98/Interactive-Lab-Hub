@@ -108,10 +108,8 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 
 2. How bad would they be impacted by a miss classification?
 
-     
 
 3. How could you change your interactive system to address this?
-
    
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
