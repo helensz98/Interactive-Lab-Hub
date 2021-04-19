@@ -217,6 +217,6 @@ I included images of N95 masks, surgical masks, and invalid masks taken from dif
 
 [Please click to watch the video](https://youtu.be/LbZ4NJ2dGcU)
 
-I also included the qwiicButton that allows users to take elfie of themselves wearing the mask
+
 
 
