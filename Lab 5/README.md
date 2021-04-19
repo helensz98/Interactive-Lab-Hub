@@ -118,7 +118,7 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
-I built a personal face-mask and sickness detector on teachable machine. If I leave without wearing a maskor show syptoms like coughing, the program will notice that. 
+I built a personal face-mask and sickness detector on teachable machine. If I leave without wearing a mask or show syptoms like coughing, the program will notice immediately. 
 
 [Please click to watch the video](https://youtu.be/4SlWbWK8rR0)
 
@@ -133,9 +133,14 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-Since I want to allow other users to test the prototype, I wouldn't want to use my face to train the model. Therefore, I deleted the original version and created on which identifies two objects: 1. mask 2.empty
+I used the teachable machine to create a mask detection prototype. However, since I want to allow other users to test it, I did not include my face in the training set. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
+
+There are two possible response from the pi. When the camera detects a mask, the pi prints 'mask' on the screen. Otherwise, it prints 'nothing'.
+
+[Please click to watch the video](https://youtu.be/R58XpGzcE4s)
+
 
 ### Part C
 ### Test the interaction prototype
@@ -143,21 +148,40 @@ Since I want to allow other users to test the prototype, I wouldn't want to use 
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
 
-Since I want to allow other users to test out the prototype, I wouldn't want to train the teachable machine using only my face. I redesigned and created another example, which is trained to identify masks. 
+When there is enough light and distance between the detected object (mask or nothing), it does its job.
 
+2. When does it fail?
 
+It fails when the mask is too close to the camera, or when the light is dim. 
 
+3. When it fails, why does it fail?
+
+Illumination: camera cannot capture enough details to generalize features in dim light. 
+
+Distance: I did not include images of the mask shot in different distance, and the program cannot match the features with its training set. 
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Possible scenarios: 1. target object (mask) is presented in angles differnt from the training set. 2. similar items are presented to the camera, leading to misclassification. 
 
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+They will not be aware of such things until they encounter problems
+
+2. How bad would they be impacted by a miss classification?
+
+It'd not be bad if the prototype is for personal/recreational usage. However, let's say if it's an automatic face mask detection system installed in a mall to detect customers violating the mask mandate, a misclassification is dangerous. 
+
+3. How could you change your interactive system to address this?
+
+I can try to include images of masks shot in different angles and sizes. 
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+Include different types of masks so that people can tell whether it's a good surgical mask, an N95 mask, or a mask not fit for respiratory protection. 
 
 ### Part D
 ### Characterize your own Observant system
@@ -165,12 +189,20 @@ Since I want to allow other users to test out the prototype, I wouldn't want to 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+    * Users can use it to check what masks they can buy to protect them from covid-19. 
 * What is a good environment for X?
+    * Somewhere with good lighting and a clean background. 
 * What is a bad environment for X?
+    * Somewhere dark with a messy background.
 * When will X break?
+    * When I stamp or the camera/pi or when it misclassifies other objects as masks. 
 * When it breaks how will X break?
+    * It will not be able to tell whether the item presented is a mask or not. 
 * What are other properties/behaviors of X?
+    * It's free. I won't dare to charge for it. 
+    * It has limitless potential for identifying masks as the diversity increases in the training set.
 * How does X feel?
+    * Most of the time, it feels like a confident elementary school student answering questions without hesitation, but she can get confused too and we need to be patient. Please don't criticize her if she does not do her job once or twice. Give her another try.
 
 **Include a short video demonstrating the answers to these questions.**
 
