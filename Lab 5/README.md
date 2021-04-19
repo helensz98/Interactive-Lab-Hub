@@ -180,7 +180,7 @@ For example:
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-    No more than one users can use the device at the same time. With multiple users, the device cannot determine whether it should say cheese or print say cheese. 
+    No more than one user can use the device at the same time. With multiple users, the device cannot determine whether it should say cheese or ask users to smile. 
 
 
 **Think about someone using the system. Describe how you think this will work.**
