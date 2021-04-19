@@ -179,7 +179,7 @@ I included qwiic button to let users decide when to take a selfie. If all users 
 
 The device is designed as such:
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/smile.png"  width="400"/>
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/selfie.jpg"  width="400"/>
 
 （pictures from amazon)
 
