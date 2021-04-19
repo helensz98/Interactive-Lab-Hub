@@ -202,7 +202,7 @@ During the lecture, we mentioned questions to help characterize a material:
     * It's free. I won't dare to charge for it. 
     * It has limitless potential for identifying masks as the diversity increases in the training set.
 * How does X feel?
-    * Most of the time, it feels like a confident elementary school student answering questions without hesitation, but she can get confused too and we need to be patient. Please don't criticize her if she does not do her job once or twice. Give her another try.
+    * Most of the time, it feels like a confident elementary school student answering questions without hesitation, but she can get confused too and we need to be patient. Please don't criticize her if she does not do her job once or twice. Give her another try (sigh).
 
 **Include a short video demonstrating the answers to these questions.**
 
