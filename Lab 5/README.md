@@ -133,11 +133,11 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-The teacahble machine model performs poorly (and frustratingly so) with the pi camera. Therefore, I use the face detection openCV model. I also modify it so that it detects a smile. 
+The teacahble machine model performs poorly (and frustratingly so) with the pi camera. I spent hours changing epoch and increasing dataset without success. Therefore, I decided to use the face detection openCV model. I also modifeid it so that it detects a smile. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
 
-There are two possible response from the pi. When the camera detects a mask, the pi prints 'mask' on the screen. Otherwise, it prints 'nothing'.
+When the camera detects 1. human face(s) and 2. smile(s), it prompts users to take a selfie.
 
 [Please click to watch the video](https://youtu.be/R58XpGzcE4s)
 
