@@ -163,23 +163,24 @@ Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it do what it is supposed to do?
 
-It works in a light setting where users hold the camera from a suitable distance with face front.  
+    It works in a light setting where users hold the camera from a suitable distance with face front.  
 
 2. When does it fail?
 
-It fails when any of the above requirements is not met.
+    It fails when any of the above requirements is not met.
 
 3. When it fails, why does it fail?
 
-Illumination: camera cannot capture enough details to generalize features in dim light. 
+    Illumination: camera cannot capture enough details to generalize features in dim light. 
 
-Angle: the pre-trained model is not suitable for face recognition from different angles and disance.
+    Angle: the pre-trained model is not suitable for face recognition from different angles and disance.
 
-Distance: I did not include images of the mask shot in different distance, and the program cannot match the features with its training set. 
+    Distance: The facial detection works well even if users are relatively far from the camera, but the smile detection is not so. Both fail when users get too             
+    close. 
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-No more than one users can use the device at the same time. With multiple users, the device cannot determine whether it should say cheese or print say cheese. 
+    No more than one users can use the device at the same time. With multiple users, the device cannot determine whether it should say cheese or print say cheese. 
 
 
 **Think about someone using the system. Describe how you think this will work.**
