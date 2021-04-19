@@ -148,6 +148,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **Include a short video demonstrating the answers to these questions.**
 
+The system is designed in a way that it takes pictures only when users switch from "not smiling" to "smiling", but when it misclassifies, things get messy...
+
+[Please click to watch the video](https://youtu.be/r2PxWW0-vcQ)
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
