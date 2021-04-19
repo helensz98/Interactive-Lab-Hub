@@ -74,14 +74,10 @@ When the pi detects faces, it prompts users to smile by printing say cheese on t
 
 I connected the pi with my bluetooth headphone. I tried different angles and illumination. It turns out that both detections work best when I'm facing the the camera in a space with ample light. With lower illumination, the face detection performs better than the smile detection which only detects wide, beaming smiles. 
 
-[Please click to watch the video](https://youtu.be/R58XpGzcE4s)
-
 
 ### Part C
 ### Test the interaction prototype
 
-Now flight test your interactive prototype and **note your observations**:
-For example:
 1. When does it do what it is supposed to do?
 
     It works in a light setting where users hold the camera from a suitable distance with face front.  
@@ -105,22 +101,22 @@ For example:
 
 
 **Think about someone using the system. Describe how you think this will work.**
+
 1. Are they aware of the uncertainties in the system?
 
     They will not be aware of such things until they encounter problems
 
 2. How bad would they be impacted by a miss classification?
 
-    It'd not be bad if the prototype is for personal/recreational usage. However, let's say if it's an automatic face mask detection system installed in a mall to 
-    detect customers violating the mask mandate, a misclassification is dangerous. 
+     
 
 3. How could you change your interactive system to address this?
 
-    I can try to include images of masks shot in different angles and sizes. 
+   
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
-    Include different types of masks so that people can tell whether it's a good surgical mask, an N95 mask, or a mask not fit for respiratory protection. 
+    
 
 ### Part D
 ### Characterize your own Observant system
@@ -128,29 +124,24 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
-    * Users can use it to check what masks they can buy to protect them from covid-19. 
+  
 * What is a good environment for X?
-    * Somewhere with good lighting and a clean background. 
+
 * What is a bad environment for X?
-    * Somewhere dark with a messy background.
+
 * When will X break?
-    * When I stamp or the camera/pi, when it's in a bad environment, or when different targtes are placed closely together, and thus misclassifies target objects. 
+
 * When it breaks how will X break?
-    * It will not be able to tell whether the item presented is a mask or not. 
+
 * What are other properties/behaviors of X?
-    * It's free. I won't dare to charge for it. 
-    * It has limitless potential for identifying masks as the diversity increases in the training set.
-    * It identifies one object at a time.
+
 * How does X feel?
-    * It is light in weight and easy to carry around.
 
 **Include a short video demonstrating the answers to these questions.**
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-I included images of N95 masks, surgical masks, and invalid masks taken from different distance and angles.
 
 **Include a short video demonstrating the finished result.**
 
