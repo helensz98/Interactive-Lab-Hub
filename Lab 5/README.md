@@ -151,7 +151,7 @@ With smile:
 
 When the pi detects faces, it prompts users to smile by printing say cheese on the screen. When users smile, the pi says "cheese" to inform users that their smiling faces are captured. 
 
-I connected the pi with my bluetooth headphone.
+I connected the pi with my bluetooth headphone. I tried different angles and illumination. It turns out that both detections work best when I'm facing the the camera in a space with ample light. With lower illumination, the face detection performs better than the smile detection which only detects wide, beaming smiles. 
 
 [Please click to watch the video](https://youtu.be/R58XpGzcE4s)
 
