@@ -106,9 +106,13 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 
     They will not be aware of such things until they encounter problems
 
-2. How bad would they be impacted by a miss classification?
-
-
+2. How bad would they be impacted by a misclassification?
+    
+    With only 1 user: Suppose that the system misclassifies other events as smiling. It might be annoying to hear a series of "cheese" when the user is not smilling, but it won't hurt since it's just a selfie machine. User will need to look for the picture that she is really smiling though afterwords. 
+                      Now, suppose that the system fails to detect a smile. The only thing hurts is user's patience. 
+                      
+    With multiple users: It'd be chaos. A misclassification will produce the same result as the above but a lot messier. 
+    
 3. How could you change your interactive system to address this?
    
 
