@@ -90,7 +90,7 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 
     Illumination: camera cannot capture enough details to generalize features in dim light. 
 
-    Angle: the pre-trained model is not suitable for face recognition from different angles and disance.
+    Angle: the pre-trained model is not suitable for face/smile detection from different angles and disance.
 
     Distance: The facial detection works well even if users are relatively far from the camera, but the smile detection is not so. Both fail when users get too             
     close. 
@@ -108,7 +108,8 @@ I connected the pi with my bluetooth headphone. I tried different angles and ill
 
 2. How bad would they be impacted by a misclassification?
     
-    With only 1 user: Suppose that the system misclassifies other events as smiling. It might be annoying to hear a series of "cheese" when the user is not smilling, but it won't hurt since it's just a selfie machine. User will need to look for the picture that she is really smiling though afterwords. 
+    With only 1 user: Suppose that the system misclassifies other events as smiling. It might be annoying to hear a series of "cheese" when the user is not 
+    smilling, but it won't hurt since it's just a selfie machine. User will need to look for the picture that she is really smiling though afterwords. 
                       Now, suppose that the system fails to detect a smile. The only thing hurts is user's patience. 
                       
     With multiple users: It'd be chaos. A misclassification will produce the same result as the above but will be a lot messier. 
