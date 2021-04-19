@@ -137,9 +137,17 @@ The teacahble machine model performs poorly (and frustratingly so) with the pi c
 
 I added a 0.5 sec silent out.mp3 file to play before cheese.mp3 so that syllables won't get cut off.
 
+Without user:
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/no.png"  width="400"/>
 
-<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
+Without smile:
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/ns.png"  width="400"/>
+
+With smile:
+
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/smile.jpeg"  width="400"/>
 
 When the pi detects faces, it prompts users to smile by printing say cheese on the screen. When users smile, the pi says "cheese" to inform users that their smiling faces are captured. 
 
