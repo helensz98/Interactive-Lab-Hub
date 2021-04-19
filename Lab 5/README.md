@@ -133,7 +133,7 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-I used the teachable machine to create a mask detection prototype. However, since I want to allow other users to test it, I did not include my face in the training set. 
+The teacahble machine model performs poorly (and frustratingly so) with the pi camera. Therefore, I use the face detection openCV model. I also modify it so that it detects a smile. 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/mask.jpeg"  width="400"/>
 
