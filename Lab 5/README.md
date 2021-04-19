@@ -177,7 +177,7 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 I included qwiic button to let users decide when to take a selfie. If all users present in the video are smiling, then the system will give a countdown "Three, two, one, cheese!". Hwoever, if anyone is not smiling, then the system will say "give me a smile."
 
-The device is designed as such:
+The device is a raspberry pi version selfie stick and should look like the product as follows:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%205/selfie.jpg"  width="400"/>
 
