@@ -118,7 +118,7 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
-I built a personal face-mask and sickness detector on teachable machine. If I leave without wearing a mask or show syptoms like coughing, the program will notice immediately. 
+I made a personal face-mask and sickness detector on teachable machine. If I leave without wearing a mask or show syptoms like coughing, the program will notice immediately. 
 
 [Please click to watch the video](https://youtu.be/4SlWbWK8rR0)
 
@@ -133,7 +133,7 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-The teacahble machine model performs poorly (and frustratingly so) with the pi camera. I spent hours changing epoch and increasing dataset without success. Therefore, I decided to use the face detection openCV model. I also modifeid it so that it when it detects a smile, it says "cheese" to the users.
+The teacahble machine model performs poorly (and frustratingly so) with the pi camera. I spent hours changing epoch and increasing dataset without success. Therefore, I decided to use the face detection openCV model. I also modifeid it so that it when it detects a smile, it says "cheese" to the users and takes a picture. 
 
 I added a 0.5 sec silent out.mp3 file to play before cheese.mp3 so that syllables won't get cut off.
 
