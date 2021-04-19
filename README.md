@@ -10,3 +10,5 @@ Please place links here to the README.md's for each of your labs here:
 [Lab 3. You are a wizard!](Lab%203/)
 
 [Lab 4. Ph-UI!!!](Lab%204/)
+
+[Lab 5. Observant Systems](Lab%205/)
