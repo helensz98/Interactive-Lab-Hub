@@ -185,7 +185,11 @@ The device is a raspberry pi version selfie stick and should look like the produ
 
 The qwiic button should be placed at the bottom of the handstick for easy access. The qwiic cable should be reasonably long and embedded in the extendable stick. 
 
-[Please click to watch the video]()
+[Please click to watch the video](https://youtu.be/AKtADTWbLYA)
+
+My bluetooth speaker does not work well with the pi, always missing a few words. I may need to increase the duration of silent file, but the user experience won't be smooth. I uploaded the mp3 files (t2 and t3). 
+
+I included voice output to let users know what's happening, since they won't be able to see the screen. How to handle the laggy response between voice output and picture capturing is a direction of improvement. 
 
 
 
