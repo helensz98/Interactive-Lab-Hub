@@ -113,7 +113,7 @@ while True:
 		        count += 1
 		        state = 0
 		    else:
-# 		    	state = 1
+ 		    	state = 1
 		    	move = 0
 
 	    if count >= 5 and move != 0:
