@@ -2,7 +2,7 @@
 
 Two players game: option 1: Tic tac toe
 
-                  option 2: Add to 21
+                  option 2: First to add up to 29 wins!
 
 
 ## Prep
