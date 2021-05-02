@@ -1,6 +1,7 @@
 # m[Q](https://en.wikipedia.org/wiki/QAnon)tt[Anon](https://en.wikipedia.org/wiki/QAnon): Where We Go One, We Go All
 
-Two players game: Tic tac toe
+Two players game: option 1: Tic tac toe
+                  option 2: counting to 21
 
 
 ## Prep
