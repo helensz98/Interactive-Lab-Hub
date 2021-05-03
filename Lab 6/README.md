@@ -145,6 +145,8 @@ Interior                                                                        
 :--------------------------------------------------------------------------------------------------------------:|:------------------------------------------------:
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%206/exterior.jpeg" height="300"> |:<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%206/interior.jpeg" height="300">
 
+There was a third touch grid before we revised the game, but now we only use two grids. 
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you the input in one location clearly causing response in another location.
 
 [simplified blackjack game](https://youtu.be/Zus_SmZWfz8)
