@@ -144,6 +144,6 @@ A novice user would need to read the rules of the game and the instructions on h
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you the input in one location clearly causing response in another location.
 
-[simplified blackjack game](https://youtu.be/Zus_SmZWfz8
+[simplified blackjack game](https://youtu.be/Zus_SmZWfz8)
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
