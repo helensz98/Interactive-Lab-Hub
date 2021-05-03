@@ -141,6 +141,7 @@ Input, output and computation: Players provide different input (“Yes” or “
 
 A novice user would need to read the rules of the game and the instructions on how to use the device before playing the game because our rules are different from the classic blackjack.  To help the user understand the current state of the game, the screen on the pie shows the current score and the current player. Two twizzlers labeled "Yes" and "No" are provided as an input device to the user. We chose to use the touch input because it is a quiet interface and allows the users to play the game in quiet places (e.g. libraries and classrooms.)
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Lab%206/exterior.jpeg" height="300">
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you the input in one location clearly causing response in another location.
 
