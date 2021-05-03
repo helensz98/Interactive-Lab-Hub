@@ -86,7 +86,7 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 ## Make it your own
 
-I worked with Jingjun Wang (jw2668) for this assignment.
+I worked with Erin Gong (yg545) for this assignment.
 
 **1. Explain your design** 
 
