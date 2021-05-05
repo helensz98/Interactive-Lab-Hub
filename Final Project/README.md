@@ -1,5 +1,7 @@
 # Final Project
 
+# Flappy bird
+
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
 Project Github page set up - May 3
