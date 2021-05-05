@@ -4,9 +4,14 @@
 
 (thoughts) 
 
-Make a pong game with led matrix, joystick and pi in which players can decide where to place the board. 
+Make a pong game with led matrix, joystick and pi in which players can decide on which border to place the board. 
 
-Players need to stop the ball from falling into the platform that the board rests. The rest of the platforms axes will be walls and ceilings. 
+Players need to stop the ball from falling outside of the border where the board rests. The rest of the borders will be walls and ceilings. 
+
+Players can also asjust the velocity. 
+
+
+Expectations: 
 
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
