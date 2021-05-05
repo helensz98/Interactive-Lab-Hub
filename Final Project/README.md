@@ -1,6 +1,6 @@
 # Final Project
 
-# Flappy bird
+# Flappy bird or Pong game (preferred)
 
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
