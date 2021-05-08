@@ -15,7 +15,8 @@ end = False
 total = 0 
 score = 0
 highest = 0
-board = [[i, j] for i in range(8) for j in range(4) if (i+j)%2 == 0]
+
+board = [[i, j] for i in range(8) for j in range(4)]
 
 total = len(board)
 
@@ -36,9 +37,9 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe(read_from)
 
 def on_message(cleint, userdata, msg):
+
     global highest
     message = msg.payload.decode('UTF-8')
-    print(message)
     message = message.split(' ')
 
     if(len(message)>0):
@@ -90,7 +91,15 @@ def draw_ball():
         if(ball_pos in board):
 
             score += 1
-            board = [i for i in board if i!=ball_pos]
+
+            grid1 = ball_pos
+            grid2 = [0, 0]
+            if(ball_pos[0]%2 == 0):
+                grid2 = [grid1[0]+1, grid1[1]]
+            else:
+                grid2 = [grid1[0]-1, grid1[1]]
+
+            board = [i for i in board if i!=grid1 and i!=grid2]
 
             if(ball_pos[0] != 0 and ball_pos[0] != 7)
 
@@ -144,7 +153,7 @@ speed = 0.5
 
 update = False
 
-client.loop()
+client.loop_start()
 
 while (len(board)>0 and not end and speed>0.2):
 
@@ -159,7 +168,7 @@ while (len(board)>0 and not end and speed>0.2):
     if(len(board) == 0 and not end):
         sense.show_message('Round 2 ', text_colour=list(color))
         speed -= 0.05
-        board = [[i, j] for i in range(8) for j in range(4) if (i+j)%2 == 0]
+        board = [[i, j] for i in range(8) for j in range(4)]
         ball_vel = [1, 1]
         ball_pos = [3, 3]
         bat_x = 4
@@ -167,9 +176,6 @@ while (len(board)>0 and not end and speed>0.2):
     sleep(speed)
     sense.clear(0, 0, 0)
 
-if(if(speed == 0.2 and len(board) == 0););
+if(speed == 0.2 and len(board) == 0);
     sense.show_message('You cleared the game', text_colour=list(color))
-
-
-
 
