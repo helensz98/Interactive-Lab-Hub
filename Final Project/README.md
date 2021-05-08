@@ -1,18 +1,5 @@
 # Final Project
 
-# Pong game (preferred)
-
-(thoughts) 
-
-Make a pong game with led matrix, joystick and pi in which players can decide on which border to place the board. 
-
-Players need to stop the ball from falling outside of the border where the board rests. The rest of the borders will be walls and ceilings. 
-
-Players can also asjust the velocity. 
-
-
-Expectations: 
-
 Using the tools and techniques you learned in this class, design, prototype and test an interactive device.
 
 Project Github page set up - May 3
@@ -30,7 +17,14 @@ Final Project Documentation due - May 19
 The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
  
 ## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing. 
+
+Pong game:
+
+Make a pong game with led matrix, joystick and pi.
+
+Players use the bat to catch the ball. For every five successful catches, the ball speeds up.
+
+Game ends when players miss the ball more than three times or when players beat the fastest speed.
 
 ## Deliverables
 
