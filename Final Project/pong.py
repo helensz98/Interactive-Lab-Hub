@@ -128,7 +128,7 @@ speed = 0.5
 
 update = False
 
-client.loop()
+client.loop_start()
 
 while (chance>0 and speed >0.05):
 
