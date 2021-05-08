@@ -22,6 +22,10 @@ breakout clone:
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/breakout_clone.jpg" height="300"> 
 
+Players use bat to bounce the ball. When all bricks are cleared, players enter the next round. In each new round, the ball gains higher velocity.
+
+Game is cleared when velocity reaches 0.2 and all bricks are removed. 
+
 Pong game:
 
 Make a pong game with led matrix, joystick and pi.
