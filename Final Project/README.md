@@ -20,7 +20,7 @@ The goal of this final project is for you to have a fully functioning and well-d
 
 breakout clone:
 
-
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/breakout_clone.jpg" height="300"> 
 
 Pong game:
 
