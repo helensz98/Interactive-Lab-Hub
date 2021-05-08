@@ -18,6 +18,10 @@ The goal of this final project is for you to have a fully functioning and well-d
  
 ## Description
 
+breakout clone:
+
+
+
 Pong game:
 
 Make a pong game with led matrix, joystick and pi.
