@@ -26,8 +26,8 @@ client.tls_set()
 # this is the username and pw we have setup for the class
 client.username_pw_set('idd', 'device@theFarm')
 
-send_to = f"IDD/pong/history"
-read_from = f"IDD/pong/history"
+send_to = f"IDD/clone/history"
+read_from = f"IDD/clone/history"
 
 highest = 0
 score = 0
@@ -167,7 +167,7 @@ while (len(board)>0 and not end and speed>0.2):
     sleep(speed)
     sense.clear(0, 0, 0)
 
-if(len(board) == 0);
+if(if(speed == 0.2 and len(board) == 0););
     sense.show_message('You cleared the game', text_colour=list(color))
 
 
