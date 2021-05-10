@@ -2,14 +2,12 @@ from sense_hat import SenseHat
 from time import sleep
 import paho.mqtt.client as mqtt
 import uuid
-import random
 
 sense = SenseHat()
 color = (31, 38, 80)
 ball_color = (75, 0, 130)
 bat_x = 4
-# randomize initial position
-ball_pos = [random.randrange(0, 7), 4]
+ball_pos = [random.randrange(0, 8), 4]
 ball_vel = [1, 1]
 chance = 3
 pre = 3
@@ -17,6 +15,10 @@ end = False
 total = 0 
 score = 0
 highest = 0
+
+# use movement sensor to control the bat
+x = 0
+
 
 board = [[i, j] for i in range(8) for j in range(4)]
 
@@ -73,7 +75,7 @@ def draw_ball():
         sense.set_pixel(i[0], i[1], brick_color)
 
     if(ball_pos[1] == 7 and chances = 1):
-        sleep(0.25)
+
         end = True
         if(score <= highest):
             sense.show_message('Score: '+score, text_colour=list(color))
@@ -82,8 +84,8 @@ def draw_ball():
             client.publish(send_to, str(score), retain=True)
 
     elif(ball-pos[1] == 7):
-        chance -= 1
         sleep(0.25)
+        chance -= 1
         sense.show_message(str(chance), text_colour=list(color))
 
     else:
@@ -104,7 +106,7 @@ def draw_ball():
 
             board = [i for i in board if i!=grid1 and i!=grid2]
 
-            if(ball_pos[0] != 0 and ball_pos[0] != 7):
+            if(ball_pos[0] != 0 and ball_pos[0] != 7)：
 
                 ball_vel[1] = -ball_vel[1]
 
@@ -136,22 +138,6 @@ def draw_bat():
     sense.set_pixel(bat_x, 7, color)
     sense.set_pixel(bat_x+1, 7, color)
 
-def move_left(event):
-    global bat_x
-
-    if (event.action == 'pressed' and bat_x > 1):
-
-        bat_x -= 1
-
-def move_right(event):
-    global bat_x
-
-    if (event.action == 'pressed' and bat_x < 6):
-
-        bat_x += 1
-
-sense.stick.direction_left = move_left
-sense.stick.direction_right = move_right
 speed = 0.5
 
 update = False
@@ -160,11 +146,17 @@ client.loop_start()
 
 while (len(board)>0 and not end and speed>0.2):
 
+    acc = sense.get_accelerometer_raw()
+    x = acc['x']
+    if(x<0 and bat_x>1):
+        bat_x -=1
+    elif (x>0 and bat_x<6):
+        bat_x += 1
     draw_bat()
     draw_ball()
     if(pre != chance):
         ball_vel = [1, 1]
-        ball_pos = [random.randrange(0, 7), 4]
+        ball_pos = [3, 3]
         bat_x = 4
         pre = chance
 
@@ -181,4 +173,7 @@ while (len(board)>0 and not end and speed>0.2):
 
 if(speed == 0.2 and len(board) == 0);
     sense.show_message('You cleared the game', text_colour=list(color))
+
+
+
 
