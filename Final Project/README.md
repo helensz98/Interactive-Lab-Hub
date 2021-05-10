@@ -30,7 +30,7 @@ Blue: bat
 
 Players use the bat to bounce the ball. When all bricks are cleared, players enter the next round. In each new round, the ball gains a higher velocity.
 
-Players move the bat by changing the value on the x axis of the matrix, namely shaking the sense hat. If the sense hat tilts to the left, the bat moces to the left, and vice versa. 
+Players move the bat by changing the value on the x axis of the led matrix, namely shaking the sense hat. If the sense hat tilts to the left, the bat moves to the left, and vice versa. 
 
 Game is cleared when velocity reaches 0.2 and all bricks are removed. 
 
