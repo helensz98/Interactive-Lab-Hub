@@ -7,7 +7,7 @@ sense = SenseHat()
 color = (31, 38, 80)
 ball_color = (75, 0, 130)
 bat_x = 4
-ball_pos = [random.randrange(0, 8), 4]
+ball_pos = [3, 4]
 ball_vel = [1, 1]
 chance = 3
 pre = 3
@@ -156,7 +156,7 @@ while (len(board)>0 and not end and speed>0.2):
     draw_ball()
     if(pre != chance):
         ball_vel = [1, 1]
-        ball_pos = [3, 3]
+        ball_pos = [3, 4]
         bat_x = 4
         pre = chance
 
@@ -165,7 +165,7 @@ while (len(board)>0 and not end and speed>0.2):
         speed -= 0.05
         board = [[i, j] for i in range(8) for j in range(4)]
         ball_vel = [1, 1]
-        ball_pos = [random.randrange(0, 7), 4]
+        ball_pos = [3, 4]
         bat_x = 4
 
     sleep(speed)
