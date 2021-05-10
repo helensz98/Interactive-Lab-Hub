@@ -34,14 +34,6 @@ Players move the bat by changing the value on the x axis of the led matrix, name
 
 Game is cleared when velocity reaches 0.2 and all bricks are removed. 
 
-Pong game:
-
-Make a pong game with led matrix, joystick and pi.
-
-Players use the bat to catch the ball. For every five successful catches, the ball speeds up.
-
-Game ends when players miss the ball more than three times or when players beat the fastest speed.
-
 ## Deliverables
 
 1. Documentation of design process
