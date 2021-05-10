@@ -73,7 +73,7 @@ def draw_ball():
         sense.set_pixel(i[0], i[1], brick_color)
 
     if(ball_pos[1] == 7 and chances = 1):
-
+        sleep(0.25)
         end = True
         if(score <= highest):
             sense.show_message('Score: '+score, text_colour=list(color))
@@ -83,6 +83,7 @@ def draw_ball():
 
     elif(ball-pos[1] == 7):
         chance -= 1
+        sleep(0.25)
         sense.show_message(str(chance), text_colour=list(color))
 
     else:
