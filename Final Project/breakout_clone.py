@@ -68,7 +68,6 @@ def draw_ball():
 
     global ball_pos
     global total
-#    global speed
 
     ld = False
     rd = False
