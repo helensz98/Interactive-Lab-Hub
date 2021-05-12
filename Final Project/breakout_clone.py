@@ -65,8 +65,15 @@ def draw_ball():
     global board
     global end
     global ball_vel
+
     global ball_pos
     global total
+#    global speed
+
+    ld = False
+    rd = False
+    lu = False
+    ru = False
     
     sense.set_pixel(ball_pos[0], ball_pos[1], ball_color)
     for i in board:
@@ -95,15 +102,15 @@ def draw_ball():
         pos[0] += ball_vel[0]
         pos[1] += ball_vel[1]
 
-        print('ball'+str(ball_pos))
-        print('vel'+str(ball_vel))
-        print('pos'+str(pos))
+        # print('ball'+str(ball_pos))
+        # print('vel'+str(ball_vel))
+        # print('pos'+str(pos))
 
         # bounce
-        if(pos == [0, 0]):
+        if(pos == [0, 0] and not pos in board):
             ball_pos = pos
             ball_vel = [1, 1]
-        elif(pos == [7, 0]):
+        elif(pos == [7, 0] and not pos in board):
             ball_pos = pos
             ball_vel = [-1, 1]
         elif(ball_vel == [-1, 1] and pos in board and ball_pos[1] == 0):
@@ -111,6 +118,10 @@ def draw_ball():
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(ball_vel == [-1, 1] and pos in board):
+            l = [ball_pos[0]-1, ball_pos[1]]
+            d = [ball_pos[0], ball_pos[1]+1]
+            if((l in board and d in board)):
+                ld = True
             ball_vel = [-1, -1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
@@ -119,41 +130,53 @@ def draw_ball():
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(ball_vel == [1, 1] and pos in board):
+            r = [ball_pos[0]+1, ball_pos[1]]
+            d = [ball_pos[0], ball_pos[1]+1]
+            if((r in board and d in board)):
+                rd = True
             ball_vel = [1, -1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(ball_vel == [-1, -1] and pos in board):
+            l = [ball_pos[0]-1, ball_pos[1]]
+            u = [ball_pos[0], ball_pos[1]-1]
+            if((l in board and u in board)):
+                lu = True
             ball_vel = [-1, 1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(ball_vel == [1, -1] and pos in board):
+            r = [ball_pos[0]+1, ball_pos[1]]
+            u = [ball_pos[0], ball_pos[1]-1]
+            if((r in board and u in board)):
+                ru = True
             ball_vel = [1, 1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(pos[1] == 0):
-            print('ceiling')
+            # print('ceiling')
             ball_vel[1] = -ball_vel[1]
             ball_pos = pos
         elif(pos[0] < 0 and pos[1] != 7):
-            print('left wall')
+            # print('left wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1] 
         elif(pos[0] == 0 and pos[1] != 7):
-            print('left wall')
+            # print('left wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos = pos 
         elif(pos[0] > 7 and pos[1] != 7):
-            print('right wall')
+            # print('right wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(pos[0] == 7 and pos[1] != 7):
-            print('right wall')
+            # print('right wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos = pos
         elif(pos[1] == 7 and ball_pos[0] in [bat_x-1, bat_x, bat_x+1]):
-            print('bat')
+            # print('bat')
             if(ball_pos[0] != 0 and ball_pos[0] != 7):
                 ball_vel[1] = -ball_vel[1]
                 ball_pos[0] += ball_vel[0]
@@ -170,14 +193,46 @@ def draw_ball():
             ball_pos = pos
         
         if(pos in board):
-            score += 1
-            grid1 = pos
-            grid2 = [0, 0]
-            if(pos[0]%2 == 0):
-                grid2 = [grid1[0]+1, grid1[1]]
-            elif(pos[0]%2 == 1):
-                grid2 = [grid1[0]-1, grid1[1]]
-            board = [i for i in board if i!=grid1 and i!=grid2] 
+            pre = [0, 0]
+            pre[0] = (ball_pos[0] - ball_vel[0])
+            pre[1] = (ball_pos[1] - ball_vel[1])
+            if(ld):
+                # prine('left down')
+                lgrid1 = [pre[0]-1, pre[1]]
+                lgrid2 = [pre[0]-2, pre[1]]
+                dgrid1 = [pre[0], pre[1]+1]
+                dgrid2 = [pre[0]+1, pre[1]+1]
+                board = [i for i in board if i!=lgrid1 and i!=lgrid2 and i!=dgrid1 and i!=dgrid2] 
+            elif(rd):
+                # print('right down')
+                rgrid1 = [pre[0]+1, rpe[1]]
+                rgrid2 = [pre[0]+2, pre[1]]
+                dgrid1 = [pre[0], pre[1]+1]
+                dgrid2 = [pre[0]+1, pre[1]+1]
+                board = [i for i in board if i!=rgrid1 and i!=rgrid2 and i!=dgrid1 and i!=dgrid2]
+            elif(lu):
+                # print('left up')
+                lgrid1 = [pre[0]-1, pre[1]]
+                lgrid2 = [pre[0]-2, pre[1]]
+                ugrid1 = [pre[0], pre[1]-1]
+                ugrid2 = [pre[0]+1, pre[1]-1]
+                board = [i for i in board if i!=lgrid1 and i!=lgrid2 and i!=ugrid1 and i!=ugrid2]
+            elif(ru):
+                # print('right up')
+                rgrid1 = [rpe[0]+1, pre[1]]
+                rgrid2 = [pre[0]+2, pre[1]]
+                ugrid1 = [pre[0], pre[1]-1]
+                ugrid2 = [pre[0]+1, pre[1]-1]
+                board = [i for i in board if i!=rgrid1 and i!=rgrid2 and i!=ugrid1 and i!=ugrid2]
+            else:
+                score += 1
+                grid1 = pos
+                grid2 = [0, 0]
+                if(pos[0]%2 == 0):
+                    grid2 = [grid1[0]+1, grid1[1]]
+                elif(pos[0]%2 == 1):
+                    grid2 = [grid1[0]-1, grid1[1]]
+                board = [i for i in board if i!=grid1 and i!=grid2] 
 
 
 def draw_bat():
