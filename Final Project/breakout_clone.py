@@ -53,7 +53,7 @@ client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
 
-# sense.show_message('You have 3 lives', text_colour=list(color))
+sense.show_message('You have 3 lives', text_colour=list(color))
 board = [[i, j] for i in range(8) for j in range(4)]
 
 total = len(board)
@@ -65,10 +65,8 @@ def draw_ball():
     global board
     global end
     global ball_vel
-
     global ball_pos
     global total
-#    global speed
     
     sense.set_pixel(ball_pos[0], ball_pos[1], ball_color)
     for i in board:
