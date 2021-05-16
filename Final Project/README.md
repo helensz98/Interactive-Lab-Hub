@@ -24,17 +24,33 @@ Wanna have some fun in the depth of finals? Distract yourself from the world of 
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/breakout_clone.jpg" height="300"> 
 
+Game instruction: 
+
 Green: bricks
 
 Red: ball
 
 Blue: bat
 
-Players use the bat to bounce the ball. When all bricks are cleared, players enter the next round. In each new round, the ball gains a higher velocity.
+Players have three lives! They can use the bat to bounce the ball. When all bricks are cleared, players enter the next round. In each new round, the ball gains a higher velocity.
 
-Players move the bat by changing the value on the x axis of the led matrix, namely shaking the sense hat. If the sense hat tilts to the left, the bat moves to the left, and vice versa. (a bit of wrist exercices too (੭ˊᵕˋ)੭
+Players move the bat by changing the value on the x axis of the led matrix, namely shaking the sense hat. If the sense hat tilts to the left, the bat moves to the left, and vice versa. (a bit of wrist exercices too (੭ˊᵕˋ)੭）
 
 Game is cleared when velocity reaches 0.2 and all bricks are removed. 
+
+Requirements:
+
+1. raspberry pi
+2. Led matrix (I use Sense hat)
+3. cardboxes, tapes, scissor and wrapping paper to custonm the device
+
+Code breakdown:
+
+<MQTT>
+ 
+Use MQTT to send/load past highest record. By sending and subscribing to the same topic, users and read and load previous data. Normally, MQTT only allow subsribers to receive real time messages. However, by setting the retain flag as True (client.publish(, ..., retain = True)), users can loop_start once in the beginning of the program and get the previous message. 
+
+
 
 ## Deliverables
 
