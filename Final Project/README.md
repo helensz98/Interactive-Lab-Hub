@@ -38,13 +38,13 @@ Players move the bat by changing the value on the x axis of the led matrix, name
 
 Game is cleared when velocity reaches 0.2 and all bricks are removed. 
 
+## Design process:
+
 Requirements:
 
 1. raspberry pi
 2. Led matrix (I use Sense hat)
 3. cardboxes, tapes, scissor and wrapping paper to custonm the device
-
-## Design process:
 
 ----------MQTT------------
  
@@ -88,17 +88,25 @@ Bricks are laid out on the first four rows of the matrix (row 0 to 3, columns 0 
 
 I came back to my old good friend cardboxes because they are lightweight and easy to shape. I wanted to make a game controller! Hiding all part of the device and showing only the led screen was easy once I found an apporopriate box, attached the pi inside and showed the led screen through the window. As for the handle, I used toothpaste package and cut them in halves. 
 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/package.jpg" height="300"> 
 
 Nest, I used tapes to attach the cardbox and packages. The final step is to do some make up so that the device looks less messy.
 
+<img src="hhttps://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/design.jpg" height="300"> 
 
-
-
+Now that the game controller is ready, users can start to play.
 
 --------- Reflection ---------
 
+The orginal design include more interactions with capacity touch and other sensors. However, the sense hat I bought does not allow that. It'd better to buy an arduiono board to add the extra functionalities, but I can't make it in time. 
 
-4. Reflections on process (What have you learned or wish you knew at the start?)
+Lessons: Study what you're going to use!! Start ahead of time if possible. Plans change all the time :(
+
+Breakout clone is a very simple game, not fancy in any way and there are numerous games more visually appealling or challenging, but it is one of the first few electronic games (if I can call it that) I learnt to play on TVs, yes, because I had no access to computers (unless I got lucky and guessed the passwords correctly) then and had absolutely no idea what the world of game was like. It requires only one participant, a worry-free time not thinking about anything other than the ball, when I knew nothing more and wanted nothing more. It's going (or already) obsolete, but I have enjoyed it. 
+
+~~In short, I created this project to escape from the reality called finals. ~~
+
+-------------END---------------
 
 
 ## Teams
