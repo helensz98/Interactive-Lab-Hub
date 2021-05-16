@@ -92,7 +92,7 @@ I came back to my old good friend cardboxes because they are lightweight and eas
 
 Nest, I used tapes to attach the cardbox and packages. The final step is to do some make up so that the device looks less messy.
 
-<img src="hhttps://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/design.jpg" height="300"> 
+<img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/design.jpg" height="300"> 
 
 Now that the game controller is ready, users can start to play.
 
@@ -104,7 +104,7 @@ Lessons: Study what you're going to use!! Start ahead of time if possible. Plans
 
 Breakout clone is a very simple game, not fancy in any way and there are numerous games more visually appealling or challenging, but it is one of the first few electronic games (if I can call it that) I learnt to play on TVs, yes, because I had no access to computers (unless I got lucky and guessed the passwords correctly) then and had absolutely no idea what the world of game was like. It requires only one participant, a worry-free time not thinking about anything other than the ball, when I knew nothing more and wanted nothing more. It's going (or already) obsolete, but I have enjoyed it. 
 
-~~In short, I created this project to escape from the reality called finals
+~~In short, I created this project to escape from the reality called finals~~
 
 -------------END---------------
 
