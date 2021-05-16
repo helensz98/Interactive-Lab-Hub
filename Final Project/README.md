@@ -72,7 +72,9 @@ Similarly, in case 4, the ball is stuck between the wall and the brick, and shou
 
 In case 5, we consider which brick to break. Usually, the ball breaks any brick on the diagonal of its moving direction, which is brick k. However, it does not look like the ball can reach brick k at all: before doing that, it encounters h and j. Thus, it makes more sense to break h and j and reverse both x and y velocities. I use several boolean variables (up, ur, ll, lr) as well as ball velocity to check whther we should break 1 brick on the diagonal or 2 bricks on the side. 
 
-Cases 6 and 7 show how the ball should behave generally. 
+Cases 6 and 7 show how the ball should behave without edge cases. 
+
+In generally, I consider each possible situation and specify how the ball should move. There should be a better (more clever way) of doing this. Some cases are less likely to occur than others, but it's nice to include them. 
 
 
 --------- Brick -----------
