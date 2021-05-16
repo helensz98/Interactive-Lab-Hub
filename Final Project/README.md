@@ -18,7 +18,9 @@ The goal of this final project is for you to have a fully functioning and well-d
  
 ## Description
 
-breakout clone:
+Wanna have some fun in the depth of finals? Distract yourself from the world of infinite due and insanity, let's play something simple and fun!
+
+[!breakout clone] (https://youtu.be/ivUhyYDvSVo)
 
 <img src="https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/breakout_clone.jpg" height="300"> 
 
