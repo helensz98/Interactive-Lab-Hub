@@ -60,9 +60,20 @@ The ball is a 1 by 1 sqaure moving inside the matrix. It has either one of the f
 
 The initial speed is 0.5 defined by sleep(0.5) in the while loop. Each time all bricks are cleared (len(board) = 0), a 0.05 decrement is given to the speed. 
 
-The most troubling thing is to consider how it bounces when hitting obstacle. In general, I want the ball to change y velocity when it hits an obstable from above, change its x velocity with an obstable on the left, etc. However, there are many edge cases to consider. 
+The most troubling thing is to consider reasonable physics for the ball to bounce when hitting obstacle. In general, I want the ball to reverse y velocity when it hits an obstable from above, reverse its x velocity with an obstable on the left, etc. However, there are many edge cases to consider. 
 
 ![input settings](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/setup.png?raw=true)
+
+In case 1 where the ball hit one of the four corners from the blue vector, it should reverse both x and y velocities and follow the red vector. 
+
+In cases 2 and case 3, the ball is stuck between the ceilling and the brick. It flies from the blue vector direction, hits the ceilling and reverse its y velocity. However, before it can move it's stoped by the brick on its diagonal, making it bounce back to the celling. One way to address this is to let it follow the red vector. 
+
+Similarly, in case 4, the ball is stuck between the wall and the brick, and should follow the red vector to escape the delimma. 
+
+In case 5, we consider which brick to break. Usually, the ball breaks any brick on the diagonal of its moving direction, which is brick k. However, it does not look like the ball can reach brick k at all: before doing that, it encounters h and j. Thus, it makes more sense to break h and j and reverse both x and y velocities. I use several boolean variables (up, ur, ll, lr) as well as ball velocity to check whther we should break 1 brick on the diagonal or 2 bricks on the side. 
+
+Cases 6 and 7 show how the ball should behave generally. 
+
 
 --------- Brick -----------
 
