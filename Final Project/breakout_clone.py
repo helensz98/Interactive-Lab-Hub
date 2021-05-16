@@ -77,16 +77,19 @@ def draw_ball():
     sense.set_pixel(ball_pos[0], ball_pos[1], ball_color)
     for i in board:
         sense.set_pixel(i[0], i[1], brick_color)
-
+        
+    # if lives are used up and ball hits the ground
     if(ball_pos[1] == 7 and chance == 1):
         end = True
-
         sleep(0.25)
+        #compare with the stored highest
+        # score is the number of bricks cleared
         if(score <= highest):
             sense.show_message('Score: '+str(score), text_colour=list(color))
         else:
             sense.show_message('New record: ' + str(score), text_colour = list(color))
             client.publish(send_to, str(score), retain=True)
+    #still have lives? go on then
     elif(ball_pos[1] == 7):
         chance -= 1
         sleep(0.25)
@@ -94,6 +97,7 @@ def draw_ball():
 
     else:
         # predict future
+        # check where the next step is before moving
         pos = [0, 0]
         pos[0] = ball_pos[0]
         pos[1] = ball_pos[1]
@@ -101,33 +105,35 @@ def draw_ball():
         pos[0] += ball_vel[0]
         pos[1] += ball_vel[1]
 
-        # print('ball'+str(ball_pos))
-        # print('vel'+str(ball_vel))
-        # print('pos'+str(pos))
-
         # bounce
+        # when it's going to hit corners 
         if(pos == [0, 0] and not pos in board):
             ball_pos = pos
             ball_vel = [1, 1]
         elif(pos == [7, 0] and not pos in board):
             ball_pos = pos
             ball_vel = [-1, 1]
+        # when it's stuck between a brick and ceilling
         elif(ball_vel == [-1, 1] and pos in board and ball_pos[1] == 0):
             ball_vel = [1, 1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
+         # hit a brick a not stuck : update velocity according to current velocity
         elif(ball_vel == [-1, 1] and pos in board):
             l = [ball_pos[0]-1, ball_pos[1]]
             d = [ball_pos[0], ball_pos[1]+1]
+            # should I remove 1 brick on the diagonal, or 2 bricks around the ball (if any)
             if((l in board and d in board)):
                 ld = True
             ball_vel = [-1, -1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
+        #stuck
         elif(ball_vel == [1, 1] and pos in board and ball_pos[1] == 0):
             ball_vel = [-1, 1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
+         #same velocity but not stuck
         elif(ball_vel == [1, 1] and pos in board):
             r = [ball_pos[0]+1, ball_pos[1]]
             d = [ball_pos[0], ball_pos[1]+1]
@@ -136,6 +142,7 @@ def draw_ball():
             ball_vel = [1, -1]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
+        # hit bricks with different velocities
         elif(ball_vel == [-1, -1] and pos in board):
             l = [ball_pos[0]-1, ball_pos[1]]
             u = [ball_pos[0], ball_pos[1]-1]
@@ -153,16 +160,16 @@ def draw_ball():
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(pos[1] == 0):
-            # print('ceiling')
+            # print('hit the ceiling')
             ball_vel[1] = -ball_vel[1]
             ball_pos = pos
         elif(pos[0] < 0 and pos[1] != 7):
-            # print('left wall')
+            # print('hit the left wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1] 
         elif(pos[0] == 0 and pos[1] != 7):
-            # print('left wall')
+            # print('hit the left wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos = pos 
         elif(pos[0] > 7 and pos[1] != 7):
@@ -171,11 +178,11 @@ def draw_ball():
             ball_pos[0] += ball_vel[0]
             ball_pos[1] += ball_vel[1]
         elif(pos[0] == 7 and pos[1] != 7):
-            # print('right wall')
+            # print('hit the right wall')
             ball_vel[0] = - ball_vel[0]
             ball_pos = pos
         elif(pos[1] == 7 and ball_pos[0] in [bat_x-1, bat_x, bat_x+1]):
-            # print('bat')
+            # print('hit the bat')
             if(ball_pos[0] != 0 and ball_pos[0] != 7):
                 ball_vel[1] = -ball_vel[1]
                 ball_pos[0] += ball_vel[0]
@@ -189,13 +196,15 @@ def draw_ball():
                 ball_pos[0] += ball_vel[0]
                 ball_pos[1] += ball_vel[1]
         else:
+            #nothing will happend ok!
             ball_pos = pos
-        
+        # I have updated ball velocity. Now let's remove some bricks 
         if(pos in board):
             pre = [0, 0]
             pre[0] = (ball_pos[0] - ball_vel[0])
             pre[1] = (ball_pos[1] - ball_vel[1])
-            if(ld):
+            if(ld): #meaning that there are two bricks on the left and right that close the way through which the ball reaches the intended position on the diagonal
+                #clear these bricks instead
                 # prine('left down')
                 lgrid1 = [pre[0]-1, pre[1]]
                 lgrid2 = [pre[0]-2, pre[1]]
@@ -227,6 +236,8 @@ def draw_ball():
                 score += 1
                 grid1 = pos
                 grid2 = [0, 0]
+                #remember that two grids is one brick. The ball can only hit one part of the brick
+                #but we should clear the brick as a whole. 
                 if(pos[0]%2 == 0):
                     grid2 = [grid1[0]+1, grid1[1]]
                 elif(pos[0]%2 == 1):
