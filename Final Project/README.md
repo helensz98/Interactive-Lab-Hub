@@ -46,10 +46,11 @@ Requirements:
 
 Code breakdown:
 
-<MQTT>
+----------MQTT------------
  
 Use MQTT to send/load past highest record. By sending and subscribing to the same topic, users and read and load previous data. Normally, MQTT only allow subsribers to receive real time messages. However, by setting the retain flag as True (client.publish(, ..., retain = True)), users can loop_start once in the beginning of the program and get the previous message. 
 
+----------END--------------
 
 
 ## Deliverables
