@@ -111,7 +111,7 @@ Breakout clone is a very simple game, not fancy in any way and there are numerou
 
 ## Teams
 
-You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
+SOLO վ'ᴗ' ի
 
 ## Examples
 
