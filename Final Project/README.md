@@ -50,8 +50,28 @@ Code breakdown:
  
 Use MQTT to send/load past highest record. By sending and subscribing to the same topic, users and read and load previous data. Normally, MQTT only allow subsribers to receive real time messages. However, by setting the retain flag as True (client.publish(, ..., retain = True)), users can loop_start once in the beginning of the program and get the previous message. 
 
-----------END--------------
+-----------Bat-------------
 
+The bat is a 3 by 3 sqaure positioned on the last row. Users move the bat by tilting the matrix. The accelerometer will detect change in x-axis and update the bat position according. 
+
+-----------Ball------------
+
+The ball is a 1 by 1 sqaure moving inside the matrix. It has either one of the four velocities(x row, y column): (-1, -1), (-1, 1), (1, -1), (1, 1)
+
+The initial speed is 0.5 defined by sleep(0.5) in the while loop. Each time all bricks are cleared (len(board) = 0), a 0.05 decrement is given to the speed. 
+
+The most troubling thing is to consider how it bounces when hitting obstacle. In general, I want the ball to change y velocity when it hits an obstable from above, change its x velocity with an obstable on the left, etc. However, there are many edge cases to consider. 
+
+![input settings](https://github.com/helensz98/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/setup.png?raw=true)
+
+--------- Brick -----------
+
+Bricks are laid out on the first four rows of the matrix (row 0 to 3, columns 0 to 7). They are stored as pairs of postion tuples in the list (var board). Each
+ time the ball moves, it will check whether it's going to hit a brick one move after (if ball_position in board)
+ 
+ Since the ball moves with specified velocity and dirctions, there are some bricks that the ball will never reaches if brick.size is 1 by 1. Therefore, I make each brick a 1 by 2 sqaure consisted of two position tuples. Each time the ball hit one part of the brick, the other part is found by modulo 2 operation and removed from the board (list) as well. 
+ 
+ -----------END-------------
 
 ## Deliverables
 
