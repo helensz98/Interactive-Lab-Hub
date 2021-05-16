@@ -102,7 +102,7 @@ The orginal design include more interactions with capacity touch and other senso
 
 Lessons: Study what you're going to use!! Start ahead of time if possible. Plans change all the time :(
 
-Breakout clone is a very simple game, not fancy in any way and there are numerous games more visually appealling or challenging, but it is one of the first few electronic games (if I can call it that) I learnt to play on TVs, yes, because I had no access to computers (unless I got lucky and guessed the passwords correctly) then and had absolutely no idea what the world of game was like. It requires only one participant, a worry-free time not thinking about anything other than the ball, when I knew nothing more and wanted nothing more. It's going (or already) obsolete, but I have enjoyed it. 
+Breakout clone is a very simple game, not fancy in any way and there are numerous games more visually appealling or challenging, but it is one of the first few electronic games (if I can call it that) I learnt to play on TVs, yes, because I had no access to computers (unless I got lucky and guessed the passwords correctly) and I had absolutely no idea what the world of game was like then. It requires only one participant, a worry-free time not thinking about anything other than the ball, when I knew nothing more and wanted nothing more. It's going (or already) obsolete, but I have enjoyed it. 
 
 ~~In short, I created this project to escape from the reality called finals~~
 
