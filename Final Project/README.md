@@ -44,7 +44,7 @@ Requirements:
 2. Led matrix (I use Sense hat)
 3. cardboxes, tapes, scissor and wrapping paper to custonm the device
 
-Code breakdown:
+## Design process:
 
 ----------MQTT------------
  
@@ -84,13 +84,20 @@ Bricks are laid out on the first four rows of the matrix (row 0 to 3, columns 0 
  
  Since the ball moves with specified velocity and dirctions, there are some bricks that the ball will never reaches if brick.size is 1 by 1. Therefore, I make each brick a 1 by 2 sqaure consisted of two position tuples. Each time the ball hit one part of the brick, the other part is found by modulo 2 operation and removed from the board (list) as well. 
  
- -----------END-------------
+-------- Wizarding ----------
 
-## Deliverables
+I came back to my old good friend cardboxes because they are lightweight and easy to shape. I wanted to make a game controller! Hiding all part of the device and showing only the led screen was easy once I found an apporopriate box, attached the pi inside and showed the led screen through the window. As for the handle, I used toothpaste package and cut them in halves. 
 
-1. Documentation of design process
-2. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
-3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
+
+Nest, I used tapes to attach the cardbox and packages. The final step is to do some make up so that the device looks less messy.
+
+
+
+
+
+--------- Reflection ---------
+
+
 4. Reflections on process (What have you learned or wish you knew at the start?)
 
 
